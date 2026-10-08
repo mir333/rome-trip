@@ -35,4 +35,4 @@ Static site, no build step:
 - Manual check: every place has a price, link, coords; budget sums match.
 
 ## Deployment
-`npx vercel --prod` after the user runs `npx vercel login` (no credentials on this machine).
+Deployed with `vercel deploy --temporary` (no user credentials on this machine) to https://rome-trip-sooty.vercel.app. Claimable into the user's account after `vercel login`.

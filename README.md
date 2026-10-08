@@ -8,4 +8,4 @@ Static one-page itinerary with map, prices and official ticket links.
 
 Run locally: `npx serve .` and open http://localhost:3000.
 
-Deploy: `npx vercel login` once, then `npx vercel --prod`.
+Deploy: currently live at https://rome-trip-sooty.vercel.app on a temporary Vercel identity created by `vercel deploy --temporary`. To move it into your own account run `npx vercel login`, then `npx vercel --prod`.

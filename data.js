@@ -5,17 +5,6 @@ window.TRIP = {
   budgetGbp: 500,
 
   places: {
-    stpeters_square: {
-      name: "St Peter's Square & Papal General Audience",
-      area: "Vatican",
-      coords: [41.9022, 12.4573],
-      price: 0, priceNote: "Free. Tickets are free but must be requested in advance.",
-      hours: "Audience Wed 10:00. Square opens ~07:30 on audience days; arrive by 08:00 for a good seat.",
-      link: "https://eventi.pontificalisdomus.va/?lang=en-us",
-      linkLabel: "Request free tickets (Prefecture of the Papal Household)",
-      desc: "Bernini's colonnade (1656–67) embraces the square like two arms. On Wednesdays the Pope holds the General Audience here: a drive through the crowd in the popemobile, a catechesis in several languages, greetings to pilgrim groups, and the Apostolic Blessing, which also covers religious objects you bring. Pope Leo XIV held the 7 October audience as normal and no October journey is scheduled, so 14 October should go ahead.",
-      tips: ["Register on the Prefecture portal and request 2 tickets for Wed 14 Oct now. Collect at the Bronze Door (right colonnade) Tue 15:00–19:00 or Wed from 07:00, or follow the instructions in your confirmation email.", "Bring rosaries or medals to be blessed.", "Security screening is airport-style. No large bags."]
-    },
     stpeters_basilica: {
       name: "St Peter's Basilica & Dome climb",
       area: "Vatican",
@@ -25,7 +14,7 @@ window.TRIP = {
       link: "https://booking.basilicasanpietro.va/en/idea/52251275/-dome-with-stairs-includes-basilica-",
       linkLabel: "Book the Dome (official basilica site)",
       desc: "The largest church in Christendom, built 1506–1626 over the tomb of the Apostle Peter. Inside: Michelangelo's Pietà, Bernini's bronze baldachin over the papal altar, the bronze statue of St Peter with its worn foot, and the Chair of Peter. Michelangelo designed the dome; 551 steps (320 if you take the lift to the roof) bring you inside the drum and then to the lantern with the best view in Rome. The Vatican Grottoes beneath hold the tombs of many popes, including St John Paul II's original resting place and Benedict XVI.",
-      tips: ["Book a 14:00–15:00 dome slot: you then enter the basilica without the general security queue.", "Dress code enforced: shoulders and knees covered.", "The Scavi (necropolis) tour under the basilica reaches St Peter's tomb itself but needs a request weeks to months ahead; try via the official link in Logistics."]
+      tips: ["Book the 13:30 dome slot on Thursday: you then enter the basilica without the general security queue.", "Sunday: the basilica opens 07:00 and the 09:00 Mass fits before your flight; the 17:00 Saturday vigil Mass is the alternative.", "Dress code enforced: shoulders and knees covered.", "The Scavi (necropolis) tour under the basilica reaches St Peter's tomb itself but needs a request weeks to months ahead; try via the official link in Logistics."]
     },
     vatican_museums: {
       name: "Vatican Museums & Sistine Chapel",
@@ -69,7 +58,7 @@ window.TRIP = {
       link: "https://portale.museiitaliani.it/",
       linkLabel: "Official tickets (Musei Italiani portal)",
       desc: "Hadrian's temple of AD 125, consecrated as a church in 609, which is why it survives intact. The unreinforced concrete dome, 43.3 m wide with its open oculus, was the world's largest for 1,300 years. Raphael and two kings of Italy are buried here.",
-      tips: ["Book a 17:30 slot on Day 1 and watch the light move across the floor.", "If it rains, the rain falls through the oculus and drains through the floor holes."]
+      tips: ["Book the 17:30 slot on Thursday and watch the light move across the floor.", "If it rains, the rain falls through the oculus and drains through the floor holes."]
     },
     trevi: {
       name: "Trevi Fountain & Spanish Steps",
@@ -91,7 +80,7 @@ window.TRIP = {
       link: "https://www.santamariadelpopolo.it/",
       linkLabel: "Church website",
       desc: "Augustinian church on the spot of Nero's reputed grave. The Cerasi Chapel has Caravaggio's Conversion of St Paul and Crucifixion of St Peter; the Chigi Chapel was designed by Raphael and finished by Bernini. Climb the ramp behind to the Pincio terrace for the classic view over Piazza del Popolo to St Peter's dome.",
-      tips: ["Walk from Metro Flaminio through the Villa Borghese park to the Borghese Gallery, about 20 minutes."]
+      tips: ["Walk from Metro Flaminio through the Villa Borghese park to the Borghese Gallery, about 20 minutes. Optional on Saturday."]
     },
     borghese: {
       name: "Borghese Gallery",
@@ -102,7 +91,7 @@ window.TRIP = {
       link: "https://www.gebart.it/musei/galleria-borghese/",
       linkLabel: "Official booking (Gebart for Galleria Borghese)",
       desc: "Cardinal Scipione Borghese's 1613 villa holds the finest Bernini sculptures anywhere: Apollo and Daphne, the Rape of Proserpina, David. Plus six Caravaggios, Raphael's Deposition, Titian's Sacred and Profane Love and Canova's Pauline Bonaparte. Two hours is exactly right.",
-      tips: ["Book the 15:00 slot for Thu 15 Oct now; slots sell out weeks ahead.", "Bags go in the free cloakroom."]
+      tips: ["Optional: book the 17:00 slot for Sat 17 Oct if you want it; slots sell out weeks ahead.", "Bags go in the free cloakroom."]
     },
     colosseum: {
       name: "Colosseum",
@@ -113,7 +102,7 @@ window.TRIP = {
       link: "https://ticketing.colosseo.it/en/",
       linkLabel: "Official tickets (Parco archeologico del Colosseo)",
       desc: "The Flavian Amphitheatre, opened AD 80 by Titus, seated 50,000 for gladiatorial games and animal hunts. The Church has long venerated it as a place of martyrdom; the Pope leads the Good Friday Way of the Cross here. The Full Experience takes you onto the reconstructed arena floor and into the hypogeum, the underground corridors where lifts raised animals and scenery.",
-      tips: ["Tickets release 30 days ahead at 09:00 Italian time and the first slots sell out: book now for Fri 16 Oct, 08:30.", "Tickets are nominal: enter the exact names on your passports.", "Max 75 minutes inside on the standard ticket."]
+      tips: ["Tickets release 30 days ahead and the first slots sell out: book now for Fri 16 Oct, 08:30.", "Tickets are nominal: enter the exact names on your passports.", "Max 75 minutes inside on the standard ticket."]
     },
     forum: {
       name: "Roman Forum & Palatine Hill",
@@ -201,49 +190,34 @@ window.TRIP = {
       link: "https://www.chiesadelgesu.org/",
       linkLabel: "Il Gesù website",
       desc: "Three churches within five minutes of the Pantheon. Il Gesù is the Jesuit mother church with the tomb of St Ignatius and the rooms where he lived and died (open afternoons). Sant'Ignazio has Pozzo's astonishing painted fake dome. Santa Maria sopra Minerva, Rome's only Gothic church, holds the body of St Catherine of Siena, Michelangelo's Risen Christ and Bernini's elephant obelisk outside.",
-      tips: ["Fits into the Day 1 evening walk between Navona and Trevi, or any spare hour."]
-    },
-    st_paul: {
-      name: "St Paul Outside the Walls",
-      area: "Ostiense",
-      coords: [41.8587, 12.4765],
-      price: 0, priceNote: "Free. Cloister €4, optional.",
-      hours: "07:00–18:30",
-      link: "https://www.basilicasanpaolo.org/",
-      linkLabel: "Basilica website",
-      desc: "Built over the tomb of St Paul, rebuilt after the 1823 fire to the original 4th-century plan. The tomb sarcophagus is visible under the altar; the portraits of every pope ring the nave (legend says when the spaces run out the world ends). Metro B to Basilica San Paolo, 10 minutes from Colosseo.",
-      tips: ["Optional Sunday afternoon stop if your departure is late; completes the four major basilicas."]
+      tips: ["Fits into the Thursday evening walk between Navona and Trevi, or any spare hour."]
     }
   },
 
   days: [
     {
-      date: "Wed 14 Oct", title: "The Pope and St Peter's",
-      colour: "#b8322e",
-      summary: "Papal General Audience, basilica and dome, then an evening walk through the Baroque centre to the Pantheon and Trevi.",
-      transport: "Metro A Ottaviano or bus 64/40 to St Peter's. Everything after the basilica is on foot (about 5 km).",
+      date: "Wed 14 Oct", title: "Arrival, late evening",
+      colour: "#8a8a8a",
+      summary: "No sightseeing. Get to the hotel and sleep; Thursday starts at 08:00.",
+      transport: "From Fiumicino: Leonardo Express to Termini runs until about 23:20 (32 min, €14); after that a taxi at the fixed city-centre fare (around €50–55, shown on the sign at the rank). From Ciampino: shuttle buses to Termini until about 23:30 (€6–7), otherwise a fixed-fare taxi (around €40).",
       stops: [
-        { time: "07:45", place: "stpeters_square", note: "Join the security queue; seats fill by 09:00. Audience 10:00–12:00." },
-        { time: "12:15", place: null, free: "Lunch in Borgo Pio, the quiet lanes just north of Via della Conciliazione." },
-        { time: "14:00", place: "stpeters_basilica", note: "Dome slot 14:00: climb first, then the basilica and the papal tombs in the grottoes." },
-        { time: "16:30", place: "castel_santangelo", note: "Walk down Via della Conciliazione, cross Ponte Sant'Angelo." },
-        { time: "17:00", place: "piazza_navona", note: "Via Via dei Coronari. Pop into San Luigi dei Francesi for Caravaggio." },
-        { time: "17:30", place: "pantheon", note: "Pre-booked 17:30 slot, last entry 18:30." },
-        { time: "18:30", place: "gesu", note: "Sant'Ignazio and Santa Maria sopra Minerva if still open; otherwise save for later." },
-        { time: "19:30", place: "trevi", note: "Dinner near Piazza di Pietra or the Trevi lanes, then the fountain by night." }
+        { time: "late", place: null, free: "Check in. Lay out passports: Thursday's Vatican Museums and dome tickets are nominal and may be checked against ID." }
       ]
     },
     {
-      date: "Thu 15 Oct", title: "Vatican Museums and Bernini",
-      colour: "#d08a1b",
-      summary: "The Sistine Chapel at opening, then north across the city to the Borghese Gallery via Caravaggio and the Pincio view.",
-      transport: "Metro A Ottaviano in the morning; Metro A Ottaviano to Flaminio after lunch (3 stops), then walking.",
+      date: "Thu 15 Oct", title: "The Vatican, then the Baroque centre",
+      colour: "#b8322e",
+      summary: "Sistine Chapel at opening, St Peter's and the dome after lunch, then an evening walk across the river to the Pantheon and Trevi.",
+      transport: "Metro A Ottaviano in the morning. Everything after the museums is on foot (about 7 km in total).",
       stops: [
-        { time: "08:00", place: "vatican_museums", note: "First slot. Allow until 11:30–12:00." },
-        { time: "12:15", place: null, free: "Lunch in Prati (Via Cola di Rienzo area), then Metro A to Flaminio." },
-        { time: "13:45", place: "popolo", note: "Caravaggio chapel, then up the ramp to the Pincio terrace and through Villa Borghese park (20 min walk)." },
-        { time: "15:00", place: "borghese", note: "Timed 2-hour slot 15:00–17:00." },
-        { time: "17:15", place: "trevi", note: "Walk down Via Veneto to the Spanish Steps (15 min), window shopping on Via Condotti; evening free in the centre." }
+        { time: "08:00", place: "vatican_museums", note: "First slot. Allow until 11:30. The exit is a 15-minute walk around the walls to St Peter's Square." },
+        { time: "11:45", place: null, free: "Lunch in Borgo Pio, the quiet lanes just north of Via della Conciliazione." },
+        { time: "13:30", place: "stpeters_basilica", note: "Dome slot 13:30: climb first, then the basilica and the papal tombs in the grottoes. Allow 2.5 hours." },
+        { time: "16:15", place: "castel_santangelo", note: "Walk down Via della Conciliazione, cross Ponte Sant'Angelo. Interior is optional." },
+        { time: "17:00", place: "piazza_navona", note: "Via Via dei Coronari. Pop into San Luigi dei Francesi for Caravaggio (open until 19:00)." },
+        { time: "17:30", place: "pantheon", note: "Pre-booked 17:30 slot, last entry 18:30." },
+        { time: "18:30", place: "gesu", note: "Sant'Ignazio and Santa Maria sopra Minerva if still open; otherwise save for Saturday evening." },
+        { time: "19:30", place: "trevi", note: "Dinner near Piazza di Pietra or the Trevi lanes, then the fountain by night." }
       ]
     },
     {
@@ -252,7 +226,7 @@ window.TRIP = {
       summary: "Colosseum underground and arena, the Forum and Palatine, St Peter's chains, the Capitoline view, then across the river for sunset.",
       transport: "Metro B Colosseo in the morning. The rest is a 6 km walk; bus H or tram 8 back from Trastevere.",
       stops: [
-        { time: "08:15", place: "colosseum", note: "Full Experience 08:30 slot; arena and underground tour inside, about 90 minutes." },
+        { time: "08:15", place: "colosseum", note: "Full Experience 08:30 slot; arena and underground inside, about 90 minutes." },
         { time: "10:30", place: "forum", note: "Enter at Largo della Salara Vecchia. Forum, then up to the Palatine. About 2.5 hours." },
         { time: "13:00", place: null, free: "Lunch in Monti (Via dei Serpenti / Via Urbana)." },
         { time: "15:00", place: "san_pietro_vincoli", note: "Reopens at 15:00. St Peter's chains and Michelangelo's Moses." },
@@ -262,34 +236,33 @@ window.TRIP = {
       ]
     },
     {
-      date: "Sat 17 Oct", title: "Catacombs, Appian Way and the Papal Basilicas",
+      date: "Sat 17 Oct", title: "Catacombs, the Papal Basilicas and Bernini",
       colour: "#4f8a3d",
-      summary: "Early Christian Rome underground and along the Appian Way, then two of the four major basilicas and the tomb of Pope Francis.",
-      transport: "Bus 118 from Piazza Venezia (or from Circo Massimo, Metro B) to the catacombs; 118 back to Piazza Venezia. Metro A to San Giovanni in the afternoon.",
+      summary: "Early Christian Rome underground, two of the four major basilicas with the tomb of Pope Francis, then the Borghese Gallery if you still have legs.",
+      transport: "Bus 118 from Piazza Venezia (or Circo Massimo, Metro B) to the catacombs and back. Metro A San Giovanni to the Lateran. Metro A Termini to Flaminio for Villa Borghese.",
       stops: [
-        { time: "08:30", place: "catacombs", note: "Bus 118, about 25 min. 09:00 or 09:30 guided tour, then walk the Appian Way to Cecilia Metella and back (about 1.5 h)." },
-        { time: "12:30", place: null, free: "Lunch at a trattoria on the Appia or back in the centre." },
-        { time: "14:30", place: "lateran", note: "Basilica, baptistery, Scala Santa (opens 15:00), optionally Santa Croce in Gerusalemme." },
-        { time: "17:00", place: "maggiore", note: "Walk Via Merulana (15 min). Tomb of Pope Francis, Salus Populi Romani, 5th-century mosaics." },
-        { time: "18:30", place: null, free: "Evening in Monti, or the Trevi and Spanish Steps if you missed them." }
+        { time: "08:30", place: "catacombs", note: "Bus 118, about 25 min. 09:00 guided tour (40 min), then a short walk on the Appian Way to Domine Quo Vadis (about 1 km) and bus 118 back." },
+        { time: "11:30", place: "lateran", note: "Basilica, baptistery and the Scala Santa before it closes at 14:00. Santa Croce in Gerusalemme optional." },
+        { time: "13:15", place: null, free: "Lunch near the Lateran or along Via Merulana." },
+        { time: "14:30", place: "maggiore", note: "Walk Via Merulana (15 min). Tomb of Pope Francis, Salus Populi Romani, 5th-century mosaics. Vigil Mass here or at St Peter's at 17:00 is an alternative to Sunday morning." },
+        { time: "16:00", place: "popolo", note: "Optional: Metro A Termini to Flaminio (6 min). Caravaggio chapel, then up to the Pincio terrace and through Villa Borghese park (20 min walk)." },
+        { time: "17:00", place: "borghese", note: "Optional 17:00 slot, 2 hours. Skip it and have a slow evening in Monti if Friday wore you out." },
+        { time: "19:15", place: null, free: "Walk down to the Spanish Steps (15 min) and dinner in the centre." }
       ]
     },
     {
-      date: "Sun 18 Oct", title: "Sunday Mass and the Angelus",
+      date: "Sun 18 Oct", title: "Sunday Mass, then the airport",
       colour: "#6f4f9f",
-      summary: "Mass in St Peter's, the Pope's Angelus at noon, and a last basilica if your departure is late.",
-      transport: "Metro A Ottaviano. Metro B to Basilica San Paolo for the optional afternoon.",
+      summary: "Early Mass in St Peter's and straight to the airport for the 13:40 flight.",
+      transport: "Walk to Metro A Ottaviano (10 min), Metro to Termini (10 min), Leonardo Express to Fiumicino (32 min, every 15 min). For Ciampino take the shuttle bus from Termini (40 min).",
       stops: [
-        { time: "09:30", place: "stpeters_basilica", note: "Sunday Masses run roughly hourly from 09:00 (10:30 at the altar of the Chair is the main one); check times on the basilica site. Go through security by 09:30." },
-        { time: "11:30", place: "stpeters_square", note: "Angelus at 12:00 from the Apostolic Palace window; free, no ticket." },
-        { time: "12:30", place: null, free: "Lunch in Borgo or Prati." },
-        { time: "14:30", place: "st_paul", note: "Optional, 30 min by Metro A + B, if you have 2 spare hours before leaving." }
+        { time: "08:30", place: "stpeters_basilica", note: "Basilica opens at 07:00. Sunday Mass at 09:00 (check the basilica site for the exact Sunday schedule). Through security by 08:30; bags small." },
+        { time: "10:05", place: null, free: "Leave the square. Metro A Ottaviano 10:15, Termini 10:30, Leonardo Express 10:35, Fiumicino 11:07. That is 2.5 hours before a 13:40 departure. If your airline wants more, take the 08:30 Mass option off and go straight from the hotel, or hear the Saturday 17:00 vigil Mass instead." }
       ]
     }
   ],
 
   budget: [
-    { item: "Papal General Audience (Wed)", pp: 0, qty: 2, core: true },
     { item: "St Peter's dome (stairs) incl. basilica priority entry + audio guide", pp: 17, qty: 2, core: true },
     { item: "Pantheon", pp: 7, qty: 2, core: true },
     { item: "Vatican Museums & Sistine Chapel (online)", pp: 25, qty: 2, core: true },
@@ -299,7 +272,7 @@ window.TRIP = {
     { item: "ATAC weekly CIS pass (unlimited bus, metro, tram 7 days)", pp: 29, qty: 2, core: true },
     { item: "Castel Sant'Angelo interior (optional)", pp: 18, qty: 2, core: false },
     { item: "Capitoline Museums (optional)", pp: 15, qty: 2, core: false },
-    { item: "Lateran cloister + St Paul's cloister (optional)", pp: 7, qty: 2, core: false },
+    { item: "Lateran cloister (optional)", pp: 3, qty: 2, core: false },
     { item: "Vatican Museums audio guide (optional)", pp: 8, qty: 2, core: false }
   ],
 

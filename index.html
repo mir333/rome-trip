@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rome Trip Planner</title>
+<meta name="description" content="Five-day Rome itinerary for 14–18 October 2026: Vatican highlights, ancient Rome, papal basilicas, with ticket prices, official booking links and a map.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⛪</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">First time in Rome · two travellers · walking and public transport</p>
+    <h1>Rome, 14–18 October 2026</h1>
+    <p class="lede">Five days built around the Vatican: the Papal Audience on Wednesday, St Peter's and the Sistine Chapel, ancient Rome, the catacombs and the four major basilicas, ending with the Angelus on Sunday. Every stop has its price and the official ticket link.</p>
+    <nav class="toc" aria-label="Sections">
+      <a href="#book-now">Book now</a>
+      <a href="#itinerary">Itinerary</a>
+      <a href="#map">Map</a>
+      <a href="#places">Places</a>
+      <a href="#budget">Budget</a>
+      <a href="#logistics">Getting there</a>
+      <a href="#tips">Tips</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section id="book-now" class="card callout">
+  <h2>Book these now, in this order</h2>
+  <p>Rome's big sights sell out weeks ahead, even in October. Tickets are nominal, so use the names on your passports.</p>
+  <ol class="booklist">
+    <li><strong>Papal General Audience, Wed 14 Oct 10:00</strong> – free. Register and request 2 tickets on the <a href="https://eventi.pontificalisdomus.va/?lang=en-us" target="_blank" rel="noopener">Prefecture portal</a>.</li>
+    <li><strong>Vatican Museums & Sistine Chapel, Thu 15 Oct 08:00</strong> – €25 each on <a href="https://tickets.museivaticani.va/home" target="_blank" rel="noopener">tickets.museivaticani.va</a>.</li>
+    <li><strong>Colosseum Full Experience, Fri 16 Oct 08:30</strong> – €24 each on <a href="https://ticketing.colosseo.it/en/" target="_blank" rel="noopener">ticketing.colosseo.it</a>. Slots open 30 days ahead, so Fri 16 Oct is already live.</li>
+    <li><strong>Borghese Gallery, Thu 15 Oct 15:00</strong> – €18 each on <a href="https://www.gebart.it/musei/galleria-borghese/" target="_blank" rel="noopener">Gebart</a>.</li>
+    <li><strong>St Peter's Dome, Wed 14 Oct 14:00</strong> – €17 each (stairs) on the <a href="https://booking.basilicasanpietro.va/en/idea/52251275/-dome-with-stairs-includes-basilica-" target="_blank" rel="noopener">basilica site</a>.</li>
+    <li><strong>Pantheon, Wed 14 Oct 17:30</strong> – €7 each on <a href="https://portale.museiitaliani.it/" target="_blank" rel="noopener">Musei Italiani</a>.</li>
+    <li><strong>Catacombs of San Callisto, Sat 17 Oct 09:00</strong> – €10 each on the <a href="https://www.catacombesancallisto.it/en/" target="_blank" rel="noopener">catacombs site</a>.</li>
+  </ol>
+</section>
+
+<section id="itinerary">
+  <h2>Day by day</h2>
+  <div id="days"></div>
+</section>
+
+<section id="map">
+  <h2>Map</h2>
+  <p class="muted">Markers are coloured by day. Click one for the price and ticket link.</p>
+  <div id="leaflet-map" aria-label="Map of itinerary stops"></div>
+  <div id="legend" class="legend"></div>
+</section>
+
+<section id="places">
+  <h2>Places, prices and tickets</h2>
+  <div id="place-cards" class="grid"></div>
+</section>
+
+<section id="budget" class="card">
+  <h2>Budget for two</h2>
+  <p class="muted">Prices checked 8 October 2026 against official sites where they allow it. Conversion at £1 = €1.15, a cautious rate. Food, lodging and flights are not included, as they are already covered.</p>
+  <div class="table-wrap"><table id="budget-table"></table></div>
+  <p id="budget-summary"></p>
+</section>
+
+<section id="logistics" class="card">
+  <h2>Getting there and around</h2>
+
+  <div class="warn">
+    <strong>Check your hotel address.</strong> Via Aurelia 25, Stagno, 57017 Livorno is in Tuscany, about 300 km north of Rome and 3 hours away by train. This plan assumes you sleep in Rome. If the Livorno booking is right, see the fallback below.
+  </div>
+
+  <h3>If you are based in Rome</h3>
+  <ul>
+    <li><strong>From Fiumicino airport:</strong> Leonardo Express to Termini, 32 min, €14; or the FL1 regional to Trastevere or Ostiense, €8, if your hotel is on that side.</li>
+    <li><strong>From Ciampino airport:</strong> shuttle bus to Termini, about 40 min, €6–7.</li>
+    <li><strong>Public transport:</strong> one ATAC ticket covers metro, bus and tram. Single BIT €1.50 for 100 minutes; 24h €8.50; 48h €15; 72h €22; weekly CIS €29. For five days the weekly CIS is the cheapest. Buy at any metro station or tabacchi, or tap a contactless card at the metro gates and on buses (fares are capped daily). Validate paper tickets on every bus.</li>
+    <li><strong>Walking:</strong> the centre is compact. The Vatican to the Colosseum is about 4 km; most days here are 5–7 km on foot. Cobbles are hard on feet, so wear your most comfortable shoes.</li>
+    <li><strong>Metro lines you will use:</strong> A (red) Ottaviano for the Vatican, Flaminio and Spagna for the north centre, San Giovanni for the Lateran. B (blue) Colosseo, Circo Massimo, Basilica San Paolo. The lines meet at Termini.</li>
+    <li><strong>Where to stay if still choosing:</strong> Prati or Borgo for the Vatican, or Monti for the Colosseum. Both have Metro A or B and are walkable to everything.</li>
+  </ul>
+
+  <h3>Fallback: if the hotel really is in Livorno</h3>
+  <ul>
+    <li><strong>Train:</strong> Livorno Centrale to Roma Termini, about 11 direct Intercity trains a day, 2h40–3h20, from about €15–20 each way if booked ahead on <a href="https://www.trenitalia.com/en.html" target="_blank" rel="noopener">Trenitalia</a>. Frecciarossa from Pisa or Florence is faster but from about €64.</li>
+    <li><strong>Hotel to station:</strong> Stagno is about 8 km from Livorno Centrale; an LAM Rossa / line 1 bus or a taxi (about €20).</li>
+    <li><strong>Realistic plan:</strong> two long day trips rather than four. Take the ~06:00 train, arrive ~09:00, return on the ~19:30–20:30 train. Day trip 1: the Vatican day (General Audience, basilica, dome, Pantheon). Day trip 2: Colosseum, Forum, Capitoline, Santa Maria Maggiore (it is 5 minutes from Termini). Drop the Vatican Museums early slot to 10:00 or skip the Borghese and catacombs.</li>
+    <li><strong>Better:</strong> if you can still change it, move the booking to Rome. Four nights in Rome will cost less than four return train days and give you the evenings.</li>
+  </ul>
+
+  <h3>Vatican extras worth a try</h3>
+  <ul>
+    <li><strong>Scavi tour (St Peter's tomb under the basilica):</strong> small groups, roughly €20 pp, requested on the <a href="https://visite.basilicasanpietro.va/en/booking/necropolivaticana" target="_blank" rel="noopener">official reservation page</a>. Confirmations take six weeks or more, so a request today is a long shot, but it costs nothing to ask.</li>
+    <li><strong>Sunday Mass times at St Peter's:</strong> see the <a href="https://www.basilicasanpietro.va/en/opening-hours" target="_blank" rel="noopener">basilica hours page</a>.</li>
+  </ul>
+</section>
+
+<section id="tips" class="card">
+  <h2>First-timer tips</h2>
+  <ul class="tips">
+    <li><strong>Church dress code:</strong> shoulders and knees covered for both of you, enforced at St Peter's and the Vatican Museums. A light scarf solves it.</li>
+    <li><strong>Mid-October weather:</strong> highs 18–22°C, lows 10–13°C, mostly dry, sunset about 18:30. A light jacket for evenings and the catacombs.</li>
+    <li><strong>Water:</strong> the little street fountains (nasoni) run free, cold drinking water. Carry a bottle.</li>
+    <li><strong>Pickpockets:</strong> busy on bus 64, Metro A and at Termini. Bag in front, nothing in back pockets.</li>
+    <li><strong>Skip the Roma Pass:</strong> at €38–63 it does not pay back against the official prices here.</li>
+    <li><strong>Ignore the touts</strong> around the Colosseum and Vatican selling "skip the line"; you already have timed tickets.</li>
+    <li><strong>Eat where locals eat:</strong> Trastevere and Monti in the evening, Testaccio for the real Roman kitchen. Cacio e pepe, carbonara, supplì, and the Jewish artichokes in the Ghetto.</li>
+    <li><strong>Coffee:</strong> standing at the bar costs about €1.20; sitting down doubles it. Cappuccino is a morning drink.</li>
+    <li><strong>Sundays:</strong> Vatican Museums closed; many churches limit sightseeing during Mass.</li>
+    <li><strong>Apps:</strong> Google Maps handles ATAC buses well. Moovit shows live bus arrivals.</li>
+  </ul>
+</section>
+
+<section id="sources" class="card">
+  <h2>Sources checked on 8 October 2026</h2>
+  <ul id="source-list"></ul>
+</section>
+
+</main>
+
+<footer class="wrap muted">
+  <p>Prices change. Confirm on the official link before paying, and never buy from a reseller for more than the official price.</p>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

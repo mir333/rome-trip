@@ -1,0 +1,969 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - paragraph [ref=e4]: First time in Rome · two travellers · walking and public transport
+      - heading "Rome, 14–18 October 2026" [level=1] [ref=e5]
+      - paragraph [ref=e6]: "Five days built around the Vatican: the Papal Audience on Wednesday, St Peter's and the Sistine Chapel, ancient Rome, the catacombs and the four major basilicas, ending with the Angelus on Sunday. Every stop has its price and the official ticket link."
+      - navigation "Sections" [ref=e7]:
+        - link "Book now" [ref=e8] [cursor=pointer]:
+          - /url: "#book-now"
+        - link "Itinerary" [ref=e9] [cursor=pointer]:
+          - /url: "#itinerary"
+        - link "Map" [ref=e10] [cursor=pointer]:
+          - /url: "#map"
+        - link "Places" [ref=e11] [cursor=pointer]:
+          - /url: "#places"
+        - link "Budget" [ref=e12] [cursor=pointer]:
+          - /url: "#budget"
+        - link "Getting there" [ref=e13] [cursor=pointer]:
+          - /url: "#logistics"
+        - link "Tips" [ref=e14] [cursor=pointer]:
+          - /url: "#tips"
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - heading "Book these now, in this order" [level=2] [ref=e17]
+      - paragraph [ref=e18]: Rome's big sights sell out weeks ahead, even in October. Tickets are nominal, so use the names on your passports.
+      - list [ref=e19]:
+        - listitem [ref=e20]:
+          - strong [ref=e21]: Papal General Audience, Wed 14 Oct 10:00
+          - text: – free. Register and request 2 tickets on the
+          - link "Prefecture portal" [ref=e22] [cursor=pointer]:
+            - /url: https://eventi.pontificalisdomus.va/?lang=en-us
+          - text: .
+        - listitem [ref=e23]:
+          - strong [ref=e24]: Vatican Museums & Sistine Chapel, Thu 15 Oct 08:00
+          - text: – €25 each on
+          - link "tickets.museivaticani.va" [ref=e25] [cursor=pointer]:
+            - /url: https://tickets.museivaticani.va/home
+          - text: .
+        - listitem [ref=e26]:
+          - strong [ref=e27]: Colosseum Full Experience, Fri 16 Oct 08:30
+          - text: – €24 each on
+          - link "ticketing.colosseo.it" [ref=e28] [cursor=pointer]:
+            - /url: https://ticketing.colosseo.it/en/
+          - text: . Slots open 30 days ahead, so Fri 16 Oct is already live.
+        - listitem [ref=e29]:
+          - strong [ref=e30]: Borghese Gallery, Thu 15 Oct 15:00
+          - text: – €18 each on
+          - link "Gebart" [ref=e31] [cursor=pointer]:
+            - /url: https://www.gebart.it/musei/galleria-borghese/
+          - text: .
+        - listitem [ref=e32]:
+          - strong [ref=e33]: St Peter's Dome, Wed 14 Oct 14:00
+          - text: – €17 each (stairs) on the
+          - link "basilica site" [ref=e34] [cursor=pointer]:
+            - /url: https://booking.basilicasanpietro.va/en/idea/52251275/-dome-with-stairs-includes-basilica-
+          - text: .
+        - listitem [ref=e35]:
+          - strong [ref=e36]: Pantheon, Wed 14 Oct 17:30
+          - text: – €7 each on
+          - link "Musei Italiani" [ref=e37] [cursor=pointer]:
+            - /url: https://portale.museiitaliani.it/
+          - text: .
+        - listitem [ref=e38]:
+          - strong [ref=e39]: Catacombs of San Callisto, Sat 17 Oct 09:00
+          - text: – €10 each on the
+          - link "catacombs site" [ref=e40] [cursor=pointer]:
+            - /url: https://www.catacombesancallisto.it/en/
+          - text: .
+    - generic [ref=e41]:
+      - heading "Day by day" [level=2] [ref=e42]
+      - generic [ref=e43]:
+        - article [ref=e44]:
+          - generic [ref=e45]:
+            - generic [ref=e46]: Day 1 · Wed 14 Oct
+            - heading "The Pope and St Peter's" [level=3] [ref=e47]
+            - paragraph [ref=e48]: Papal General Audience, basilica and dome, then an evening walk through the Baroque centre to the Pantheon and Trevi.
+            - paragraph [ref=e49]:
+              - strong [ref=e50]: "Transport:"
+              - text: Metro A Ottaviano or bus 64/40 to St Peter's. Everything after the basilica is on foot (about 5 km).
+          - list [ref=e51]:
+            - listitem [ref=e52]:
+              - generic [ref=e53]: 07:45
+              - generic [ref=e54]:
+                - link "St Peter's Square & Papal General Audience" [ref=e56] [cursor=pointer]:
+                  - /url: "#place-stpeters_square"
+                - generic [ref=e57]: Join the security queue; seats fill by 09:00. Audience 10:00–12:00.
+                - generic [ref=e58]:
+                  - generic [ref=e59]: Free
+                  - link "Request free tickets (Prefecture of the Papal Household)" [ref=e60] [cursor=pointer]:
+                    - /url: https://eventi.pontificalisdomus.va/?lang=en-us
+            - listitem [ref=e61]:
+              - generic [ref=e62]: 12:15
+              - generic [ref=e63]: Lunch in Borgo Pio, the quiet lanes just north of Via della Conciliazione.
+            - listitem [ref=e65]:
+              - generic [ref=e66]: 14:00
+              - generic [ref=e67]:
+                - link "St Peter's Basilica & Dome climb" [ref=e69] [cursor=pointer]:
+                  - /url: "#place-stpeters_basilica"
+                - generic [ref=e70]: "Dome slot 14:00: climb first, then the basilica and the papal tombs in the grottoes."
+                - generic [ref=e71]:
+                  - generic [ref=e72]: €17 pp
+                  - link "Book the Dome (official basilica site)" [ref=e73] [cursor=pointer]:
+                    - /url: https://booking.basilicasanpietro.va/en/idea/52251275/-dome-with-stairs-includes-basilica-
+            - listitem [ref=e74]:
+              - generic [ref=e75]: 16:30
+              - generic [ref=e76]:
+                - link "Castel Sant'Angelo & Ponte Sant'Angelo" [ref=e78] [cursor=pointer]:
+                  - /url: "#place-castel_santangelo"
+                - generic [ref=e79]: Walk down Via della Conciliazione, cross Ponte Sant'Angelo.
+                - generic [ref=e80]:
+                  - generic [ref=e81]: €18 pp
+                  - link "Official tickets (CoopCulture)" [ref=e82] [cursor=pointer]:
+                    - /url: https://www.coopculture.it/en/products/castel-santangelo-ticket-individual-up-to-9-people-00001/
+            - listitem [ref=e83]:
+              - generic [ref=e84]: 17:00
+              - generic [ref=e85]:
+                - link "Piazza Navona" [ref=e87] [cursor=pointer]:
+                  - /url: "#place-piazza_navona"
+                - generic [ref=e88]: Via Via dei Coronari. Pop into San Luigi dei Francesi for Caravaggio.
+                - generic [ref=e89]:
+                  - generic [ref=e90]: Free
+                  - link "Rome tourism info" [ref=e91] [cursor=pointer]:
+                    - /url: https://www.turismoroma.it/en/places/piazza-navona
+            - listitem [ref=e92]:
+              - generic [ref=e93]: 17:30
+              - generic [ref=e94]:
+                - link "Pantheon (Basilica of St Mary and the Martyrs)" [ref=e96] [cursor=pointer]:
+                  - /url: "#place-pantheon"
+                - generic [ref=e97]: Pre-booked 17:30 slot, last entry 18:30.
+                - generic [ref=e98]:
+                  - generic [ref=e99]: €7 pp
+                  - link "Official tickets (Musei Italiani portal)" [ref=e100] [cursor=pointer]:
+                    - /url: https://portale.museiitaliani.it/
+            - listitem [ref=e101]:
+              - generic [ref=e102]: 18:30
+              - generic [ref=e103]:
+                - link "Il Gesù, Sant'Ignazio & Santa Maria sopra Minerva" [ref=e105] [cursor=pointer]:
+                  - /url: "#place-gesu"
+                - generic [ref=e106]: Sant'Ignazio and Santa Maria sopra Minerva if still open; otherwise save for later.
+                - generic [ref=e107]:
+                  - generic [ref=e108]: Free
+                  - link "Il Gesù website" [ref=e109] [cursor=pointer]:
+                    - /url: https://www.chiesadelgesu.org/
+            - listitem [ref=e110]:
+              - generic [ref=e111]: 19:30
+              - generic [ref=e112]:
+                - link "Trevi Fountain & Spanish Steps" [ref=e114] [cursor=pointer]:
+                  - /url: "#place-trevi"
+                - generic [ref=e115]: Dinner near Piazza di Pietra or the Trevi lanes, then the fountain by night.
+                - generic [ref=e116]:
+                  - generic [ref=e117]: Free
+                  - link "Rome tourism info" [ref=e118] [cursor=pointer]:
+                    - /url: https://www.turismoroma.it/en/places/trevi-fountain
+        - article [ref=e119]:
+          - generic [ref=e120]:
+            - generic [ref=e121]: Day 2 · Thu 15 Oct
+            - heading "Vatican Museums and Bernini" [level=3] [ref=e122]
+            - paragraph [ref=e123]: The Sistine Chapel at opening, then north across the city to the Borghese Gallery via Caravaggio and the Pincio view.
+            - paragraph [ref=e124]:
+              - strong [ref=e125]: "Transport:"
+              - text: Metro A Ottaviano in the morning; Metro A Ottaviano to Flaminio after lunch (3 stops), then walking.
+          - list [ref=e126]:
+            - listitem [ref=e127]:
+              - generic [ref=e128]: 08:00
+              - generic [ref=e129]:
+                - link "Vatican Museums & Sistine Chapel" [ref=e131] [cursor=pointer]:
+                  - /url: "#place-vatican_museums"
+                - generic [ref=e132]: First slot. Allow until 11:30–12:00.
+                - generic [ref=e133]:
+                  - generic [ref=e134]: €25 pp
+                  - link "Official tickets (tickets.museivaticani.va)" [ref=e135] [cursor=pointer]:
+                    - /url: https://tickets.museivaticani.va/home
+            - listitem [ref=e136]:
+              - generic [ref=e137]: 12:15
+              - generic [ref=e138]: Lunch in Prati (Via Cola di Rienzo area), then Metro A to Flaminio.
+            - listitem [ref=e140]:
+              - generic [ref=e141]: 13:45
+              - generic [ref=e142]:
+                - link "Santa Maria del Popolo & Pincio terrace" [ref=e144] [cursor=pointer]:
+                  - /url: "#place-popolo"
+                - generic [ref=e145]: Caravaggio chapel, then up the ramp to the Pincio terrace and through Villa Borghese park (20 min walk).
+                - generic [ref=e146]:
+                  - generic [ref=e147]: Free
+                  - link "Church website" [ref=e148] [cursor=pointer]:
+                    - /url: https://www.santamariadelpopolo.it/
+            - listitem [ref=e149]:
+              - generic [ref=e150]: 15:00
+              - generic [ref=e151]:
+                - link "Borghese Gallery" [ref=e153] [cursor=pointer]:
+                  - /url: "#place-borghese"
+                - generic [ref=e154]: Timed 2-hour slot 15:00–17:00.
+                - generic [ref=e155]:
+                  - generic [ref=e156]: €18 pp
+                  - link "Official booking (Gebart for Galleria Borghese)" [ref=e157] [cursor=pointer]:
+                    - /url: https://www.gebart.it/musei/galleria-borghese/
+            - listitem [ref=e158]:
+              - generic [ref=e159]: 17:15
+              - generic [ref=e160]:
+                - link "Trevi Fountain & Spanish Steps" [ref=e162] [cursor=pointer]:
+                  - /url: "#place-trevi"
+                - generic [ref=e163]: Walk down Via Veneto to the Spanish Steps (15 min), window shopping on Via Condotti; evening free in the centre.
+                - generic [ref=e164]:
+                  - generic [ref=e165]: Free
+                  - link "Rome tourism info" [ref=e166] [cursor=pointer]:
+                    - /url: https://www.turismoroma.it/en/places/trevi-fountain
+        - article [ref=e167]:
+          - generic [ref=e168]:
+            - generic [ref=e169]: Day 3 · Fri 16 Oct
+            - heading "Ancient Rome to Trastevere" [level=3] [ref=e170]
+            - paragraph [ref=e171]: Colosseum underground and arena, the Forum and Palatine, St Peter's chains, the Capitoline view, then across the river for sunset.
+            - paragraph [ref=e172]:
+              - strong [ref=e173]: "Transport:"
+              - text: Metro B Colosseo in the morning. The rest is a 6 km walk; bus H or tram 8 back from Trastevere.
+          - list [ref=e174]:
+            - listitem [ref=e175]:
+              - generic [ref=e176]: 08:15
+              - generic [ref=e177]:
+                - link "Colosseum" [ref=e179] [cursor=pointer]:
+                  - /url: "#place-colosseum"
+                - generic [ref=e180]: Full Experience 08:30 slot; arena and underground tour inside, about 90 minutes.
+                - generic [ref=e181]:
+                  - generic [ref=e182]: €24 pp
+                  - link "Official tickets (Parco archeologico del Colosseo)" [ref=e183] [cursor=pointer]:
+                    - /url: https://ticketing.colosseo.it/en/
+            - listitem [ref=e184]:
+              - generic [ref=e185]: 10:30
+              - generic [ref=e186]:
+                - link "Roman Forum & Palatine Hill" [ref=e188] [cursor=pointer]:
+                  - /url: "#place-forum"
+                - generic [ref=e189]: Enter at Largo della Salara Vecchia. Forum, then up to the Palatine. About 2.5 hours.
+                - generic [ref=e190]:
+                  - generic [ref=e191]: Free
+                  - link "Park opening times" [ref=e192] [cursor=pointer]:
+                    - /url: https://colosseo.it/en/opening-times-and-tickets/
+            - listitem [ref=e193]:
+              - generic [ref=e194]: 13:00
+              - generic [ref=e195]: Lunch in Monti (Via dei Serpenti / Via Urbana).
+            - listitem [ref=e197]:
+              - generic [ref=e198]: 15:00
+              - generic [ref=e199]:
+                - link "San Pietro in Vincoli" [ref=e201] [cursor=pointer]:
+                  - /url: "#place-san_pietro_vincoli"
+                - generic [ref=e202]: Reopens at 15:00. St Peter's chains and Michelangelo's Moses.
+                - generic [ref=e203]:
+                  - generic [ref=e204]: Free
+                  - link "Rome tourism info" [ref=e205] [cursor=pointer]:
+                    - /url: https://www.turismoroma.it/en/places/basilica-di-san-pietro-vincoli
+            - listitem [ref=e206]:
+              - generic [ref=e207]: 15:45
+              - generic [ref=e208]:
+                - link "Capitoline Hill & Vittoriano terrace" [ref=e210] [cursor=pointer]:
+                  - /url: "#place-capitoline"
+                - generic [ref=e211]: Via Trajan's Column and the Imperial Fora. Free Forum terrace behind the Senator's Palace.
+                - generic [ref=e212]:
+                  - generic [ref=e213]: Free
+                  - link "Capitoline Museums (official)" [ref=e214] [cursor=pointer]:
+                    - /url: https://www.museicapitolini.org/en
+            - listitem [ref=e215]:
+              - generic [ref=e216]: 17:00
+              - generic [ref=e217]:
+                - link "Jewish Ghetto, Tiber Island & Santa Maria in Trastevere" [ref=e219] [cursor=pointer]:
+                  - /url: "#place-ghetto_trastevere"
+                - generic [ref=e220]: Ghetto, Tiber Island, Santa Maria in Trastevere. Gianicolo for sunset at 18:30 if legs allow.
+                - generic [ref=e221]:
+                  - generic [ref=e222]: Free
+                  - link "Rome tourism info" [ref=e223] [cursor=pointer]:
+                    - /url: https://www.turismoroma.it/en/places/basilica-di-santa-maria-trastevere
+            - listitem [ref=e224]:
+              - generic [ref=e225]: 19:30
+              - generic [ref=e226]: Dinner in Trastevere.
+        - article [ref=e228]:
+          - generic [ref=e229]:
+            - generic [ref=e230]: Day 4 · Sat 17 Oct
+            - heading "Catacombs, Appian Way and the Papal Basilicas" [level=3] [ref=e231]
+            - paragraph [ref=e232]: Early Christian Rome underground and along the Appian Way, then two of the four major basilicas and the tomb of Pope Francis.
+            - paragraph [ref=e233]:
+              - strong [ref=e234]: "Transport:"
+              - text: Bus 118 from Piazza Venezia (or from Circo Massimo, Metro B) to the catacombs; 118 back to Piazza Venezia. Metro A to San Giovanni in the afternoon.
+          - list [ref=e235]:
+            - listitem [ref=e236]:
+              - generic [ref=e237]: 08:30
+              - generic [ref=e238]:
+                - link "Catacombs of San Callisto & Appian Way" [ref=e240] [cursor=pointer]:
+                  - /url: "#place-catacombs"
+                - generic [ref=e241]: Bus 118, about 25 min. 09:00 or 09:30 guided tour, then walk the Appian Way to Cecilia Metella and back (about 1.5 h).
+                - generic [ref=e242]:
+                  - generic [ref=e243]: €10 pp
+                  - link "Official site & booking" [ref=e244] [cursor=pointer]:
+                    - /url: https://www.catacombesancallisto.it/en/
+            - listitem [ref=e245]:
+              - generic [ref=e246]: 12:30
+              - generic [ref=e247]: Lunch at a trattoria on the Appia or back in the centre.
+            - listitem [ref=e249]:
+              - generic [ref=e250]: 14:30
+              - generic [ref=e251]:
+                - link "St John Lateran, Scala Santa & Santa Croce" [ref=e253] [cursor=pointer]:
+                  - /url: "#place-lateran"
+                - generic [ref=e254]: Basilica, baptistery, Scala Santa (opens 15:00), optionally Santa Croce in Gerusalemme.
+                - generic [ref=e255]:
+                  - generic [ref=e256]: Free
+                  - link "Vatican page for the basilica" [ref=e257] [cursor=pointer]:
+                    - /url: https://www.vatican.va/various/basiliche/san_giovanni/index_en.html
+            - listitem [ref=e258]:
+              - generic [ref=e259]: 17:00
+              - generic [ref=e260]:
+                - link "Santa Maria Maggiore (tomb of Pope Francis)" [ref=e262] [cursor=pointer]:
+                  - /url: "#place-maggiore"
+                - generic [ref=e263]: Walk Via Merulana (15 min). Tomb of Pope Francis, Salus Populi Romani, 5th-century mosaics.
+                - generic [ref=e264]:
+                  - generic [ref=e265]: Free
+                  - link "Vatican page for the basilica" [ref=e266] [cursor=pointer]:
+                    - /url: https://www.vatican.va/various/basiliche/sm_maggiore/index_en.html
+            - listitem [ref=e267]:
+              - generic [ref=e268]: 18:30
+              - generic [ref=e269]: Evening in Monti, or the Trevi and Spanish Steps if you missed them.
+        - article [ref=e271]:
+          - generic [ref=e272]:
+            - generic [ref=e273]: Day 5 · Sun 18 Oct
+            - heading "Sunday Mass and the Angelus" [level=3] [ref=e274]
+            - paragraph [ref=e275]: Mass in St Peter's, the Pope's Angelus at noon, and a last basilica if your departure is late.
+            - paragraph [ref=e276]:
+              - strong [ref=e277]: "Transport:"
+              - text: Metro A Ottaviano. Metro B to Basilica San Paolo for the optional afternoon.
+          - list [ref=e278]:
+            - listitem [ref=e279]:
+              - generic [ref=e280]: 09:30
+              - generic [ref=e281]:
+                - link "St Peter's Basilica & Dome climb" [ref=e283] [cursor=pointer]:
+                  - /url: "#place-stpeters_basilica"
+                - generic [ref=e284]: Sunday Masses run roughly hourly from 09:00 (10:30 at the altar of the Chair is the main one); check times on the basilica site. Go through security by 09:30.
+                - generic [ref=e285]:
+                  - generic [ref=e286]: €17 pp
+                  - link "Book the Dome (official basilica site)" [ref=e287] [cursor=pointer]:
+                    - /url: https://booking.basilicasanpietro.va/en/idea/52251275/-dome-with-stairs-includes-basilica-
+            - listitem [ref=e288]:
+              - generic [ref=e289]: 11:30
+              - generic [ref=e290]:
+                - link "St Peter's Square & Papal General Audience" [ref=e292] [cursor=pointer]:
+                  - /url: "#place-stpeters_square"
+                - generic [ref=e293]: Angelus at 12:00 from the Apostolic Palace window; free, no ticket.
+                - generic [ref=e294]:
+                  - generic [ref=e295]: Free
+                  - link "Request free tickets (Prefecture of the Papal Household)" [ref=e296] [cursor=pointer]:
+                    - /url: https://eventi.pontificalisdomus.va/?lang=en-us
+            - listitem [ref=e297]:
+              - generic [ref=e298]: 12:30
+              - generic [ref=e299]: Lunch in Borgo or Prati.
+            - listitem [ref=e301]:
+              - generic [ref=e302]: 14:30
+              - generic [ref=e303]:
+                - link "St Paul Outside the Walls" [ref=e305] [cursor=pointer]:
+                  - /url: "#place-st_paul"
+                - generic [ref=e306]: Optional, 30 min by Metro A + B, if you have 2 spare hours before leaving.
+                - generic [ref=e307]:
+                  - generic [ref=e308]: Free
+                  - link "Basilica website" [ref=e309] [cursor=pointer]:
+                    - /url: https://www.basilicasanpaolo.org/
+    - generic [ref=e310]:
+      - heading "Map" [level=2] [ref=e311]
+      - paragraph [ref=e312]: Markers are coloured by day. Click one for the price and ticket link.
+      - generic "Map of itinerary stops" [ref=e313]:
+        - generic:
+          - generic:
+            - img:
+              - generic:
+                - generic [ref=e314] [cursor=pointer]
+                - generic [ref=e315] [cursor=pointer]
+                - generic [ref=e316] [cursor=pointer]
+                - generic [ref=e317] [cursor=pointer]
+                - generic [ref=e318] [cursor=pointer]
+                - generic [ref=e319] [cursor=pointer]
+                - generic [ref=e320] [cursor=pointer]
+                - generic [ref=e321] [cursor=pointer]
+                - generic [ref=e322] [cursor=pointer]
+                - generic [ref=e323] [cursor=pointer]
+                - generic [ref=e324] [cursor=pointer]
+                - generic [ref=e325] [cursor=pointer]
+                - generic [ref=e326] [cursor=pointer]
+                - generic [ref=e327] [cursor=pointer]
+                - generic [ref=e328] [cursor=pointer]
+                - generic [ref=e329] [cursor=pointer]
+                - generic [ref=e330] [cursor=pointer]
+                - generic [ref=e331] [cursor=pointer]
+                - generic [ref=e332] [cursor=pointer]
+                - generic [ref=e333] [cursor=pointer]
+                - generic [ref=e334] [cursor=pointer]
+                - generic [ref=e335] [cursor=pointer]
+                - generic [ref=e336] [cursor=pointer]
+                - generic [ref=e337] [cursor=pointer]
+        - generic:
+          - generic [ref=e338]:
+            - button "Zoom in" [ref=e339] [cursor=pointer]: +
+            - button "Zoom out" [ref=e340] [cursor=pointer]: −
+          - generic [ref=e341]:
+            - link "Leaflet" [ref=e342] [cursor=pointer]:
+              - /url: https://leafletjs.com
+            - text: "| © OpenStreetMap contributors"
+      - generic [ref=e347]:
+        - generic [ref=e348]: Day 1 · Wed 14 Oct
+        - generic [ref=e349]: Day 2 · Thu 15 Oct
+        - generic [ref=e350]: Day 3 · Fri 16 Oct
+        - generic [ref=e351]: Day 4 · Sat 17 Oct
+        - generic [ref=e352]: Day 5 · Sun 18 Oct
+    - generic [ref=e353]:
+      - heading "Places, prices and tickets" [level=2] [ref=e354]
+      - generic [ref=e355]:
+        - article [ref=e356]:
+          - heading "St Peter's Square & Papal General Audience" [level=3] [ref=e357]
+          - generic [ref=e358]: Vatican · Day 1 · Wed 14 Oct
+          - paragraph [ref=e359]: "Bernini's colonnade (1656–67) embraces the square like two arms. On Wednesdays the Pope holds the General Audience here: a drive through the crowd in the popemobile, a catechesis in several languages, greetings to pilgrim groups, and the Apostolic Blessing, which also covers religious objects you bring. Pope Leo XIV held the 7 October audience as normal and no October journey is scheduled, so 14 October should go ahead."
+          - generic [ref=e360]:
+            - term [ref=e361]: Price
+            - definition [ref=e362]: Free. Tickets are free but must be requested in advance.
+            - term [ref=e363]: Hours
+            - definition [ref=e364]: Audience Wed 10:00. Square opens ~07:30 on audience days; arrive by 08:00 for a good seat.
+          - list [ref=e365]:
+            - listitem [ref=e366]: Register on the Prefecture portal and request 2 tickets for Wed 14 Oct now. Collect at the Bronze Door (right colonnade) Tue 15:00–19:00 or Wed from 07:00, or follow the instructions in your confirmation email.
+            - listitem [ref=e367]: Bring rosaries or medals to be blessed.
+            - listitem [ref=e368]: Security screening is airport-style. No large bags.
+          - generic [ref=e369]:
+            - 'link "Info: Request free tickets (Prefecture of the Papal Household)" [ref=e370] [cursor=pointer]':
+              - /url: https://eventi.pontificalisdomus.va/?lang=en-us
+            - link "Directions" [ref=e371] [cursor=pointer]:
+              - /url: https://www.google.com/maps/dir/?api=1&destination=41.9022,12.4573&travelmode=transit
+        - article [ref=e372]:
+          - heading "St Peter's Basilica & Dome climb" [level=3] [ref=e373]
+          - generic [ref=e374]: Vatican · Day 1 · Wed 14 Oct
+          - paragraph [ref=e375]: "The largest church in Christendom, built 1506–1626 over the tomb of the Apostle Peter. Inside: Michelangelo's Pietà, Bernini's bronze baldachin over the papal altar, the bronze statue of St Peter with its worn foot, and the Chair of Peter. Michelangelo designed the dome; 551 steps (320 if you take the lift to the roof) bring you inside the drum and then to the lantern with the best view in Rome. The Vatican Grottoes beneath hold the tombs of many popes, including St John Paul II's original resting place and Benedict XVI."
+          - generic [ref=e376]:
+            - term [ref=e377]: Price
+            - definition [ref=e378]: Basilica is free. Dome with stairs €17 or with lift €22; both include priority basilica entry and a digital audio guide.
+            - term [ref=e379]: Hours
+            - definition [ref=e380]: Basilica 07:00–20:00. Dome 07:00–18:00 until 25 Oct.
+          - list [ref=e381]:
+            - listitem [ref=e382]: "Book a 14:00–15:00 dome slot: you then enter the basilica without the general security queue."
+            - listitem [ref=e383]: "Dress code enforced: shoulders and knees covered."
+            - listitem [ref=e384]: The Scavi (necropolis) tour under the basilica reaches St Peter's tomb itself but needs a request weeks to months ahead; try via the official link in Logistics.
+          - generic [ref=e385]:
+            - 'link "Tickets: Book the Dome (official basilica site)" [ref=e386] [cursor=pointer]':
+              - /url: https://booking.basilicasanpietro.va/en/idea/52251275/-dome-with-stairs-includes-basilica-
+            - link "Directions" [ref=e387] [cursor=pointer]:
+              - /url: https://www.google.com/maps/dir/?api=1&destination=41.9022,12.4539&travelmode=transit
+        - article [ref=e388]:
+          - heading "Castel Sant'Angelo & Ponte Sant'Angelo" [level=3] [ref=e389]
+          - generic [ref=e390]: Vatican / Centre · Day 1 · Wed 14 Oct
+          - paragraph [ref=e391]: Hadrian's mausoleum (AD 139) became the popes' fortress, prison and treasury, linked to the Vatican by the Passetto, an elevated escape corridor used by Clement VII during the 1527 Sack of Rome. The bridge carries ten angels designed by Bernini holding the instruments of the Passion. The terrace is where Tosca jumps.
+          - generic [ref=e392]:
+            - term [ref=e393]: Price
+            - definition [ref=e394]: €18 to go inside (optional). Free to walk the bridge and ramparts outside.
+            - term [ref=e395]: Hours
+            - definition [ref=e396]: 09:00–19:30, last entry 18:30. Closed Mondays.
+          - list [ref=e397]:
+            - listitem [ref=e398]: "Optional: do the interior only if you have energy left; the bridge at sunset is the free highlight."
+          - generic [ref=e399]:
+            - 'link "Tickets: Official tickets (CoopCulture)" [ref=e400] [cursor=pointer]':
+              - /url: https://www.coopculture.it/en/products/castel-santangelo-ticket-individual-up-to-9-people-00001/
+            - link "Directions" [ref=e401] [cursor=pointer]:
+              - /url: https://www.google.com/maps/dir/?api=1&destination=41.9031,12.4663&travelmode=transit
+        - article [ref=e402]:
+          - heading "Piazza Navona" [level=3] [ref=e403]
+          - generic [ref=e404]: Centre · Day 1 · Wed 14 Oct
+          - paragraph [ref=e405]: Keeps the oval shape of Domitian's stadium (AD 86). Bernini's Fountain of the Four Rivers (1651) faces Borromini's church of Sant'Agnese in Agone, built where the 13-year-old St Agnes was martyred.
+          - generic [ref=e406]:
+            - term [ref=e407]: Price
+            - definition [ref=e408]: Free
+            - term [ref=e409]: Hours
+            - definition [ref=e410]: Always open
+          - list [ref=e411]:
+            - listitem [ref=e412]: San Luigi dei Francesi, two minutes away, has three Caravaggio paintings of St Matthew (free).
+          - generic [ref=e413]:
+            - 'link "Info: Rome tourism info" [ref=e414] [cursor=pointer]':
+              - /url: https://www.turismoroma.it/en/places/piazza-navona
+            - link "Directions" [ref=e415] [cursor=pointer]:
+              - /url: https://www.google.com/maps/dir/?api=1&destination=41.8992,12.4731&travelmode=transit
+        - article [ref=e416]:
+          - heading "Pantheon (Basilica of St Mary and the Martyrs)" [level=3] [ref=e417]
+          - generic [ref=e418]: Centre · Day 1 · Wed 14 Oct
+          - paragraph [ref=e419]: Hadrian's temple of AD 125, consecrated as a church in 609, which is why it survives intact. The unreinforced concrete dome, 43.3 m wide with its open oculus, was the world's largest for 1,300 years. Raphael and two kings of Italy are buried here.
+          - generic [ref=e420]:
+            - term [ref=e421]: Price
+            - definition [ref=e422]: €7 (raised from €5 on 1 Jul 2026). Nominal ticket, bring ID.
+            - term [ref=e423]: Hours
+            - definition [ref=e424]: Daily 09:00–19:00, last entry 18:30. No tourist entry during Mass (Sat 17:00, Sun 10:30).
+          - list [ref=e425]:
+            - listitem [ref=e426]: Book a 17:30 slot on Day 1 and watch the light move across the floor.
+            - listitem [ref=e427]: If it rains, the rain falls through the oculus and drains through the floor holes.
+          - generic [ref=e428]:
+            - 'link "Tickets: Official tickets (Musei Italiani portal)" [ref=e429] [cursor=pointer]':
+              - /url: https://portale.museiitaliani.it/
+            - link "Directions" [ref=e430] [cursor=pointer]:
+              - /url: https://www.google.com/maps/dir/?api=1&destination=41.8986,12.4769&travelmode=transit
+        - article [ref=e431]:
+          - heading "Trevi Fountain & Spanish Steps" [level=3] [ref=e432]
+          - generic [ref=e433]: Centre · Day 1 · Wed 14 Oct
+          - paragraph [ref=e434]: The end point of the Aqua Virgo aqueduct of 19 BC, dressed in Nicola Salvi's Baroque facade (1762). Throw a coin with your right hand over your left shoulder to return to Rome. From here a 10-minute walk leads to the Spanish Steps and the church of Trinità dei Monti.
+          - generic [ref=e435]:
+            - term [ref=e436]: Price
+            - definition [ref=e437]: Free (a controlled-access queue may run at busy hours).
+            - term [ref=e438]: Hours
+            - definition [ref=e439]: Always open
+          - list [ref=e440]:
+            - listitem [ref=e441]: Best after 21:00 when the day crowds thin.
+          - generic [ref=e442]:
+            - 'link "Info: Rome tourism info" [ref=e443] [cursor=pointer]':
+              - /url: https://www.turismoroma.it/en/places/trevi-fountain
+            - link "Directions" [ref=e444] [cursor=pointer]:
+              - /url: https://www.google.com/maps/dir/?api=1&destination=41.9009,12.4833&travelmode=transit
+        - article [ref=e445]:
+          - heading "Il Gesù, Sant'Ignazio & Santa Maria sopra Minerva" [level=3] [ref=e446]
+          - generic [ref=e447]: Centre · Day 1 · Wed 14 Oct
+          - paragraph [ref=e448]: Three churches within five minutes of the Pantheon. Il Gesù is the Jesuit mother church with the tomb of St Ignatius and the rooms where he lived and died (open afternoons). Sant'Ignazio has Pozzo's astonishing painted fake dome. Santa Maria sopra Minerva, Rome's only Gothic church, holds the body of St Catherine of Siena, Michelangelo's Risen Christ and Bernini's elephant obelisk outside.
+          - generic [ref=e449]:
+            - term [ref=e450]: Price
+            - definition [ref=e451]: Free
+            - term [ref=e452]: Hours
+            - definition [ref=e453]: Roughly 07:30–12:30 and 16:00–19:30
+          - list [ref=e454]:
+            - listitem [ref=e455]: Fits into the Day 1 evening walk between Navona and Trevi, or any spare hour.
+          - generic [ref=e456]:
+            - 'link "Info: Il Gesù website" [ref=e457] [cursor=pointer]':
+              - /url: https://www.chiesadelgesu.org/
+            - link "Directions" [ref=e458] [cursor=pointer]:
+              - /url: https://www.google.com/maps/dir/?api=1&destination=41.8958,12.4797&travelmode=transit
+        - article [ref=e459]:
+          - heading "Vatican Museums & Sistine Chapel" [level=3] [ref=e460]
+          - generic [ref=e461]: Vatican · Day 2 · Thu 15 Oct
+          - paragraph [ref=e462]: "Five centuries of papal collecting over 7 km of galleries: the Laocoön and the Belvedere Torso, the Gallery of Maps, Raphael's Stanze (the School of Athens), and finally the Sistine Chapel, where Michelangelo painted the ceiling (1508–12) and the Last Judgement (1536–41) and where the conclave that elected Leo XIV met in May 2025. Allow 3–4 hours."
+          - generic [ref=e463]:
+            - term [ref=e464]: Price
+            - definition [ref=e465]: €20 + €5 online booking fee. Reduced rates for under-18s.
+            - term [ref=e466]: Hours
+            - definition [ref=e467]: Mon–Sat 08:00–20:00, last entry 18:00. Closed Sundays (except last Sunday of month, free).
+          - list [ref=e468]:
+            - listitem [ref=e469]: "Tickets open 60 days ahead and the early slots sell out: book the earliest slot available right now."
+            - listitem [ref=e470]: "Walk the museum in order: Pinacoteca first if you like painting, then the long route to the Sistine Chapel."
+            - listitem [ref=e471]: Silence and no photos in the Sistine Chapel.
+            - listitem [ref=e472]: Beware of resellers; the official price is €25.
+          - generic [ref=e473]:
+            - 'link "Tickets: Official tickets (tickets.museivaticani.va)" [ref=e474] [cursor=pointer]':
+              - /url: https://tickets.museivaticani.va/home
+            - link "Directions" [ref=e475] [cursor=pointer]:
+              - /url: https://www.google.com/maps/dir/?api=1&destination=41.9065,12.4536&travelmode=transit
+        - article [ref=e476]:
+          - heading "Santa Maria del Popolo & Pincio terrace" [level=3] [ref=e477]
+          - generic [ref=e478]: North centre · Day 2 · Thu 15 Oct
+          - paragraph [ref=e479]: Augustinian church on the spot of Nero's reputed grave. The Cerasi Chapel has Caravaggio's Conversion of St Paul and Crucifixion of St Peter; the Chigi Chapel was designed by Raphael and finished by Bernini. Climb the ramp behind to the Pincio terrace for the classic view over Piazza del Popolo to St Peter's dome.
+          - generic [ref=e480]:
+            - term [ref=e481]: Price
+            - definition [ref=e482]: Free
+            - term [ref=e483]: Hours
+            - definition [ref=e484]: Church roughly 07:30–12:30 and 16:00–19:00
+          - list [ref=e485]:
+            - listitem [ref=e486]: Walk from Metro Flaminio through the Villa Borghese park to the Borghese Gallery, about 20 minutes.
+          - generic [ref=e487]:
+            - 'link "Info: Church website" [ref=e488] [cursor=pointer]':
+              - /url: https://www.santamariadelpopolo.it/
+            - link "Directions" [ref=e489] [cursor=pointer]:
+              - /url: https://www.google.com/maps/dir/?api=1&destination=41.9115,12.4765&travelmode=transit
+        - article [ref=e490]:
+          - heading "Borghese Gallery" [level=3] [ref=e491]
+          - generic [ref=e492]: Villa Borghese · Day 2 · Thu 15 Oct
+          - paragraph [ref=e493]: "Cardinal Scipione Borghese's 1613 villa holds the finest Bernini sculptures anywhere: Apollo and Daphne, the Rape of Proserpina, David. Plus six Caravaggios, Raphael's Deposition, Titian's Sacred and Profane Love and Canova's Pauline Bonaparte. Two hours is exactly right."
+          - generic [ref=e494]:
+            - term [ref=e495]: Price
+            - definition [ref=e496]: €16 + €2 mandatory reservation fee. Timed 2-hour slots, 180 people each. No tickets at the door.
+            - term [ref=e497]: Hours
+            - definition [ref=e498]: Tue–Sun 09:00–19:00, slots on the hour. Closed Mondays.
+          - list [ref=e499]:
+            - listitem [ref=e500]: Book the 15:00 slot for Thu 15 Oct now; slots sell out weeks ahead.
+            - listitem [ref=e501]: Bags go in the free cloakroom.
+          - generic [ref=e502]:
+            - 'link "Tickets: Official booking (Gebart for Galleria Borghese)" [ref=e503] [cursor=pointer]':
+              - /url: https://www.gebart.it/musei/galleria-borghese/
+            - link "Directions" [ref=e504] [cursor=pointer]:
+              - /url: https://www.google.com/maps/dir/?api=1&destination=41.9142,12.4922&travelmode=transit
+        - article [ref=e505]:
+          - heading "Colosseum" [level=3] [ref=e506]
+          - generic [ref=e507]: Ancient Rome · Day 3 · Fri 16 Oct
+          - paragraph [ref=e508]: The Flavian Amphitheatre, opened AD 80 by Titus, seated 50,000 for gladiatorial games and animal hunts. The Church has long venerated it as a place of martyrdom; the Pope leads the Good Friday Way of the Cross here. The Full Experience takes you onto the reconstructed arena floor and into the hypogeum, the underground corridors where lifts raised animals and scenery.
+          - generic [ref=e509]:
+            - term [ref=e510]: Price
+            - definition [ref=e511]: Standard 24h ticket €18 (levels 1–2 + Forum + Palatine). Full Experience Underground & Arena €24, valid 2 days, recommended for history lovers.
+            - term [ref=e512]: Hours
+            - definition [ref=e513]: 08:30–18:30 until 24 Oct, last entry 17:30.
+          - list [ref=e514]:
+            - listitem [ref=e515]: "Tickets release 30 days ahead at 09:00 Italian time and the first slots sell out: book now for Fri 16 Oct, 08:30."
+            - listitem [ref=e516]: "Tickets are nominal: enter the exact names on your passports."
+            - listitem [ref=e517]: Max 75 minutes inside on the standard ticket.
+          - generic [ref=e518]:
+            - 'link "Tickets: Official tickets (Parco archeologico del Colosseo)" [ref=e519] [cursor=pointer]':
+              - /url: https://ticketing.colosseo.it/en/
+            - link "Directions" [ref=e520] [cursor=pointer]:
+              - /url: https://www.google.com/maps/dir/?api=1&destination=41.8902,12.4922&travelmode=transit
+        - article [ref=e521]:
+          - heading "Roman Forum & Palatine Hill" [level=3] [ref=e522]
+          - generic [ref=e523]: Ancient Rome · Day 3 · Fri 16 Oct
+          - paragraph [ref=e524]: "The civic heart of Rome for a thousand years: the Senate House (Curia), the Rostra where Cicero spoke, the Temple of Caesar where his body was burned, the Arch of Titus showing the loot of the Jerusalem Temple, and the Mamertine Prison where tradition holds Peter and Paul were held. The Palatine above is where Romulus founded the city in 753 BC and where emperors built their palaces; the view over the Circus Maximus is superb."
+          - generic [ref=e525]:
+            - term [ref=e526]: Price
+            - definition [ref=e527]: Included in the Colosseum ticket.
+            - term [ref=e528]: Hours
+            - definition [ref=e529]: 09:00–18:30 until 24 Oct.
+          - list [ref=e530]:
+            - listitem [ref=e531]: Enter the Forum from Largo della Salara Vecchia on Via dei Fori Imperiali after the Colosseum.
+            - listitem [ref=e532]: Santa Maria Antiqua and the Temple of Romulus are 'SUPER' sites included in the Full Experience.
+          - generic [ref=e533]:
+            - 'link "Info: Park opening times" [ref=e534] [cursor=pointer]':
+              - /url: https://colosseo.it/en/opening-times-and-tickets/
+            - link "Directions" [ref=e535] [cursor=pointer]:
+              - /url: https://www.google.com/maps/dir/?api=1&destination=41.8925,12.4853&travelmode=transit
+        - article [ref=e536]:
+          - heading "San Pietro in Vincoli" [level=3] [ref=e537]
+          - generic [ref=e538]: Ancient Rome / Monti · Day 3 · Fri 16 Oct
+          - paragraph [ref=e539]: Built in 442 to house the chains that bound St Peter in Jerusalem and in Rome, displayed under the high altar. Michelangelo's Moses, carved for the tomb of Julius II, sits in the right transept. Five minutes uphill from the Colosseum.
+          - generic [ref=e540]:
+            - term [ref=e541]: Price
+            - definition [ref=e542]: Free
+            - term [ref=e543]: Hours
+            - definition [ref=e544]: 08:00–12:30 and 15:00–19:00
+          - list [ref=e545]:
+            - listitem [ref=e546]: Closes for lunch 12:30–15:00; visit after the Forum.
+          - generic [ref=e547]:
+            - 'link "Info: Rome tourism info" [ref=e548] [cursor=pointer]':
+              - /url: https://www.turismoroma.it/en/places/basilica-di-san-pietro-vincoli
+            - link "Directions" [ref=e549] [cursor=pointer]:
+              - /url: https://www.google.com/maps/dir/?api=1&destination=41.8938,12.4932&travelmode=transit
+        - article [ref=e550]:
+          - heading "Capitoline Hill & Vittoriano terrace" [level=3] [ref=e551]
+          - generic [ref=e552]: Ancient Rome · Day 3 · Fri 16 Oct
+          - paragraph [ref=e553]: Michelangelo's trapezoid piazza on the hill of Jupiter's temple. The Capitoline Museums, the world's oldest public museum (1471), keep the Capitoline Wolf, the Dying Gaul and the original Marcus Aurelius bronze. The free terrace behind the Senator's Palace gives the best view down the length of the Forum. Santa Maria in Aracoeli, up 124 steps, holds the Santo Bambino.
+          - generic [ref=e554]:
+            - term [ref=e555]: Price
+            - definition [ref=e556]: Square and the rear terrace over the Forum are free. Capitoline Museums €15 (€20.50 during exhibitions), optional.
+            - term [ref=e557]: Hours
+            - definition [ref=e558]: Museums 09:30–19:30
+          - list [ref=e559]:
+            - listitem [ref=e560]: Optional museum stop if the weather turns; otherwise enjoy the views for free.
+          - generic [ref=e561]:
+            - 'link "Info: Capitoline Museums (official)" [ref=e562] [cursor=pointer]':
+              - /url: https://www.museicapitolini.org/en
+            - link "Directions" [ref=e563] [cursor=pointer]:
+              - /url: https://www.google.com/maps/dir/?api=1&destination=41.8933,12.4828&travelmode=transit
+        - article [ref=e564]:
+          - heading "Jewish Ghetto, Tiber Island & Santa Maria in Trastevere" [level=3] [ref=e565]
+          - generic [ref=e566]: Trastevere · Day 3 · Fri 16 Oct
+          - paragraph [ref=e567]: Walk from the Capitoline through the Portico of Octavia and the old Ghetto (try the Jewish-Roman fried artichokes), across the Tiber Island with its 1st-century BC bridge, into Trastevere. Santa Maria in Trastevere, possibly the first church in Rome dedicated to Mary (3rd century, rebuilt 1140), glows with 12th- and 13th-century mosaics by Cavallini. Nearby Santa Cecilia stands over the house of the martyr.
+          - generic [ref=e568]:
+            - term [ref=e569]: Price
+            - definition [ref=e570]: Free
+            - term [ref=e571]: Hours
+            - definition [ref=e572]: Church 07:30–21:00
+          - list [ref=e573]:
+            - listitem [ref=e574]: Climb the Gianicolo (Janiculum) hill from Trastevere for sunset at about 18:30 over the whole city; Bramante's Tempietto at San Pietro in Montorio marks the traditional site of Peter's crucifixion.
+          - generic [ref=e575]:
+            - 'link "Info: Rome tourism info" [ref=e576] [cursor=pointer]':
+              - /url: https://www.turismoroma.it/en/places/basilica-di-santa-maria-trastevere
+            - link "Directions" [ref=e577] [cursor=pointer]:
+              - /url: https://www.google.com/maps/dir/?api=1&destination=41.8894,12.4698&travelmode=transit
+        - article [ref=e578]:
+          - heading "Catacombs of San Callisto & Appian Way" [level=3] [ref=e579]
+          - generic [ref=e580]: Appia Antica · Day 4 · Sat 17 Oct
+          - paragraph [ref=e581]: "The official cemetery of the Church of Rome in the 3rd century: 20 km of galleries, half a million burials, the Crypt of the Popes with nine 3rd-century popes, and the original tomb of St Cecilia. The Appian Way outside is the Roman road of 312 BC; walk past Domine Quo Vadis, where Peter met Christ fleeing Rome, to the tomb of Cecilia Metella (about 2 km on original basalt paving)."
+          - generic [ref=e582]:
+            - term [ref=e583]: Price
+            - definition [ref=e584]: €10 including the mandatory guided tour (about 40 minutes). Online reservation required.
+            - term [ref=e585]: Hours
+            - definition [ref=e586]: Thu–Tue 09:00–12:00 and 14:00–17:00. Closed Wednesdays.
+          - list [ref=e587]:
+            - listitem [ref=e588]: Bus 118 from Piazza Venezia or Circo Massimo (Metro B) stops at the catacombs; ask for 'Catacombe di San Callisto'.
+            - listitem [ref=e589]: "Wear a layer: it is 15°C underground."
+          - generic [ref=e590]:
+            - 'link "Tickets: Official site & booking" [ref=e591] [cursor=pointer]':
+              - /url: https://www.catacombesancallisto.it/en/
+            - link "Directions" [ref=e592] [cursor=pointer]:
+              - /url: https://www.google.com/maps/dir/?api=1&destination=41.8588,12.5116&travelmode=transit
+        - article [ref=e593]:
+          - heading "St John Lateran, Scala Santa & Santa Croce" [level=3] [ref=e594]
+          - generic [ref=e595]: Esquiline / Lateran · Day 4 · Sat 17 Oct
+          - paragraph [ref=e596]: The cathedral of Rome and 'mother of all churches', given by Constantine in 324, where the popes lived for a thousand years. The baptistery is the oldest in the world. Across the square, the Scala Santa are the 28 marble steps from Pilate's praetorium, brought by St Helena, climbed only on the knees. Ten minutes further, Santa Croce in Gerusalemme keeps the relics of the Passion that Helena brought from Jerusalem.
+          - generic [ref=e597]:
+            - term [ref=e598]: Price
+            - definition [ref=e599]: Free. Cloister €3, optional.
+            - term [ref=e600]: Hours
+            - definition [ref=e601]: Basilica 07:00–18:30. Scala Santa 06:00–14:00 and 15:00–18:30.
+          - list [ref=e602]:
+            - listitem [ref=e603]: Metro A to San Giovanni, or bus 85/87 from the centre.
+            - listitem [ref=e604]: Papal altar reliquaries hold the heads of Sts Peter and Paul by tradition.
+          - generic [ref=e605]:
+            - 'link "Info: Vatican page for the basilica" [ref=e606] [cursor=pointer]':
+              - /url: https://www.vatican.va/various/basiliche/san_giovanni/index_en.html
+            - link "Directions" [ref=e607] [cursor=pointer]:
+              - /url: https://www.google.com/maps/dir/?api=1&destination=41.8859,12.5056&travelmode=transit
+        - article [ref=e608]:
+          - heading "Santa Maria Maggiore (tomb of Pope Francis)" [level=3] [ref=e609]
+          - generic [ref=e610]: Esquiline · Day 4 · Sat 17 Oct
+          - paragraph [ref=e611]: The largest Marian church in Rome, founded after the Council of Ephesus (431) and the only patriarchal basilica to keep its early Christian structure. 5th-century mosaics line the nave; the relic of the Holy Crib lies under the altar; the icon Salus Populi Romani is the one Pope Francis prayed before after every journey. He was buried here on 26 April 2025 in a plain tomb inscribed simply 'Franciscus', in the aisle beside the Pauline Chapel.
+          - generic [ref=e612]:
+            - term [ref=e613]: Price
+            - definition [ref=e614]: Free. Museum and loggia tour optional.
+            - term [ref=e615]: Hours
+            - definition [ref=e616]: 07:00–18:45
+          - list [ref=e617]:
+            - listitem [ref=e618]: A 15-minute walk from the Lateran along Via Merulana.
+            - listitem [ref=e619]: Expect a short queue for the tomb; no photography there.
+          - generic [ref=e620]:
+            - 'link "Info: Vatican page for the basilica" [ref=e621] [cursor=pointer]':
+              - /url: https://www.vatican.va/various/basiliche/sm_maggiore/index_en.html
+            - link "Directions" [ref=e622] [cursor=pointer]:
+              - /url: https://www.google.com/maps/dir/?api=1&destination=41.8976,12.4985&travelmode=transit
+        - article [ref=e623]:
+          - heading "St Paul Outside the Walls" [level=3] [ref=e624]
+          - generic [ref=e625]: Ostiense · Day 5 · Sun 18 Oct
+          - paragraph [ref=e626]: Built over the tomb of St Paul, rebuilt after the 1823 fire to the original 4th-century plan. The tomb sarcophagus is visible under the altar; the portraits of every pope ring the nave (legend says when the spaces run out the world ends). Metro B to Basilica San Paolo, 10 minutes from Colosseo.
+          - generic [ref=e627]:
+            - term [ref=e628]: Price
+            - definition [ref=e629]: Free. Cloister €4, optional.
+            - term [ref=e630]: Hours
+            - definition [ref=e631]: 07:00–18:30
+          - list [ref=e632]:
+            - listitem [ref=e633]: Optional Sunday afternoon stop if your departure is late; completes the four major basilicas.
+          - generic [ref=e634]:
+            - 'link "Info: Basilica website" [ref=e635] [cursor=pointer]':
+              - /url: https://www.basilicasanpaolo.org/
+            - link "Directions" [ref=e636] [cursor=pointer]:
+              - /url: https://www.google.com/maps/dir/?api=1&destination=41.8587,12.4765&travelmode=transit
+    - generic [ref=e637]:
+      - heading "Budget for two" [level=2] [ref=e638]
+      - paragraph [ref=e639]: Prices checked 8 October 2026 against official sites where they allow it. Conversion at £1 = €1.15, a cautious rate. Food, lodging and flights are not included, as they are already covered.
+      - table [ref=e641]:
+        - rowgroup [ref=e642]:
+          - row [ref=e643]:
+            - columnheader "Item" [ref=e644]
+            - columnheader "Per person" [ref=e645]
+            - columnheader "Qty" [ref=e646]
+            - columnheader "EUR" [ref=e647]
+            - columnheader "GBP" [ref=e648]
+        - rowgroup [ref=e649]:
+          - row [ref=e650]:
+            - cell "Papal General Audience (Wed)" [ref=e651]
+            - cell "€0" [ref=e652]
+            - cell "2" [ref=e653]
+            - cell "€0" [ref=e654]
+            - cell "£0" [ref=e655]
+          - row [ref=e656]:
+            - cell "St Peter's dome (stairs) incl. basilica priority entry + audio guide" [ref=e657]
+            - cell "€17" [ref=e658]
+            - cell "2" [ref=e659]
+            - cell "€34" [ref=e660]
+            - cell "£30" [ref=e661]
+          - row [ref=e662]:
+            - cell "Pantheon" [ref=e663]
+            - cell "€7" [ref=e664]
+            - cell "2" [ref=e665]
+            - cell "€14" [ref=e666]
+            - cell "£12" [ref=e667]
+          - row [ref=e668]:
+            - cell "Vatican Museums & Sistine Chapel (online)" [ref=e669]
+            - cell "€25" [ref=e670]
+            - cell "2" [ref=e671]
+            - cell "€50" [ref=e672]
+            - cell "£43" [ref=e673]
+          - row [ref=e674]:
+            - cell "Borghese Gallery incl. reservation fee" [ref=e675]
+            - cell "€18" [ref=e676]
+            - cell "2" [ref=e677]
+            - cell "€36" [ref=e678]
+            - cell "£31" [ref=e679]
+          - row [ref=e680]:
+            - cell "Colosseum Full Experience Underground & Arena + Forum + Palatine" [ref=e681]
+            - cell "€24" [ref=e682]
+            - cell "2" [ref=e683]
+            - cell "€48" [ref=e684]
+            - cell "£42" [ref=e685]
+          - row [ref=e686]:
+            - cell "Catacombs of San Callisto (guided)" [ref=e687]
+            - cell "€10" [ref=e688]
+            - cell "2" [ref=e689]
+            - cell "€20" [ref=e690]
+            - cell "£17" [ref=e691]
+          - row [ref=e692]:
+            - cell "ATAC weekly CIS pass (unlimited bus, metro, tram 7 days)" [ref=e693]
+            - cell "€29" [ref=e694]
+            - cell "2" [ref=e695]
+            - cell "€58" [ref=e696]
+            - cell "£50" [ref=e697]
+          - row [ref=e698]:
+            - cell "Castel Sant'Angelo interior (optional) optional" [ref=e699]:
+              - text: Castel Sant'Angelo interior (optional)
+              - generic [ref=e700]: optional
+            - cell "€18" [ref=e701]
+            - cell "2" [ref=e702]
+            - cell "€36" [ref=e703]
+            - cell "£31" [ref=e704]
+          - row [ref=e705]:
+            - cell "Capitoline Museums (optional) optional" [ref=e706]:
+              - text: Capitoline Museums (optional)
+              - generic [ref=e707]: optional
+            - cell "€15" [ref=e708]
+            - cell "2" [ref=e709]
+            - cell "€30" [ref=e710]
+            - cell "£26" [ref=e711]
+          - row [ref=e712]:
+            - cell "Lateran cloister + St Paul's cloister (optional) optional" [ref=e713]:
+              - text: Lateran cloister + St Paul's cloister (optional)
+              - generic [ref=e714]: optional
+            - cell "€7" [ref=e715]
+            - cell "2" [ref=e716]
+            - cell "€14" [ref=e717]
+            - cell "£12" [ref=e718]
+          - row [ref=e719]:
+            - cell "Vatican Museums audio guide (optional) optional" [ref=e720]:
+              - text: Vatican Museums audio guide (optional)
+              - generic [ref=e721]: optional
+            - cell "€8" [ref=e722]
+            - cell "2" [ref=e723]
+            - cell "€16" [ref=e724]
+            - cell "£14" [ref=e725]
+          - row [ref=e726]:
+            - cell "Core plan total" [ref=e727]
+            - cell [ref=e728]
+            - cell [ref=e729]
+            - cell "€260" [ref=e730]
+            - cell "£226" [ref=e731]
+          - row [ref=e732]:
+            - cell "With all optional extras" [ref=e733]
+            - cell [ref=e734]
+            - cell [ref=e735]
+            - cell "€356" [ref=e736]
+            - cell "£310" [ref=e737]
+      - paragraph [ref=e738]: Your ceiling of £500 is about €575. The core plan uses £226, leaving roughly £274 spare for a guided tour of the Vatican Museums or the Colosseum underground (typically €50–90 per person) if you want one, or for the Scavi tour if a slot comes through.
+    - generic [ref=e739]:
+      - heading "Getting there and around" [level=2] [ref=e740]
+      - generic [ref=e741]:
+        - strong [ref=e742]: Check your hotel address.
+        - text: Via Aurelia 25, Stagno, 57017 Livorno is in Tuscany, about 300 km north of Rome and 3 hours away by train. This plan assumes you sleep in Rome. If the Livorno booking is right, see the fallback below.
+      - heading "If you are based in Rome" [level=3] [ref=e743]
+      - list [ref=e744]:
+        - listitem [ref=e745]:
+          - strong [ref=e746]: "From Fiumicino airport:"
+          - text: Leonardo Express to Termini, 32 min, €14; or the FL1 regional to Trastevere or Ostiense, €8, if your hotel is on that side.
+        - listitem [ref=e747]:
+          - strong [ref=e748]: "From Ciampino airport:"
+          - text: shuttle bus to Termini, about 40 min, €6–7.
+        - listitem [ref=e749]:
+          - strong [ref=e750]: "Public transport:"
+          - text: one ATAC ticket covers metro, bus and tram. Single BIT €1.50 for 100 minutes; 24h €8.50; 48h €15; 72h €22; weekly CIS €29. For five days the weekly CIS is the cheapest. Buy at any metro station or tabacchi, or tap a contactless card at the metro gates and on buses (fares are capped daily). Validate paper tickets on every bus.
+        - listitem [ref=e751]:
+          - strong [ref=e752]: "Walking:"
+          - text: the centre is compact. The Vatican to the Colosseum is about 4 km; most days here are 5–7 km on foot. Cobbles are hard on feet, so wear your most comfortable shoes.
+        - listitem [ref=e753]:
+          - strong [ref=e754]: "Metro lines you will use:"
+          - text: A (red) Ottaviano for the Vatican, Flaminio and Spagna for the north centre, San Giovanni for the Lateran. B (blue) Colosseo, Circo Massimo, Basilica San Paolo. The lines meet at Termini.
+        - listitem [ref=e755]:
+          - strong [ref=e756]: "Where to stay if still choosing:"
+          - text: Prati or Borgo for the Vatican, or Monti for the Colosseum. Both have Metro A or B and are walkable to everything.
+      - 'heading "Fallback: if the hotel really is in Livorno" [level=3] [ref=e757]'
+      - list [ref=e758]:
+        - listitem [ref=e759]:
+          - strong [ref=e760]: "Train:"
+          - text: Livorno Centrale to Roma Termini, about 11 direct Intercity trains a day, 2h40–3h20, from about €15–20 each way if booked ahead on
+          - link "Trenitalia" [ref=e761] [cursor=pointer]:
+            - /url: https://www.trenitalia.com/en.html
+          - text: . Frecciarossa from Pisa or Florence is faster but from about €64.
+        - listitem [ref=e762]:
+          - strong [ref=e763]: "Hotel to station:"
+          - text: Stagno is about 8 km from Livorno Centrale; an LAM Rossa / line 1 bus or a taxi (about €20).
+        - listitem [ref=e764]:
+          - strong [ref=e765]: "Realistic plan:"
+          - text: "two long day trips rather than four. Take the ~06:00 train, arrive ~09:00, return on the ~19:30–20:30 train. Day trip 1: the Vatican day (General Audience, basilica, dome, Pantheon). Day trip 2: Colosseum, Forum, Capitoline, Santa Maria Maggiore (it is 5 minutes from Termini). Drop the Vatican Museums early slot to 10:00 or skip the Borghese and catacombs."
+        - listitem [ref=e766]:
+          - strong [ref=e767]: "Better:"
+          - text: if you can still change it, move the booking to Rome. Four nights in Rome will cost less than four return train days and give you the evenings.
+      - heading "Vatican extras worth a try" [level=3] [ref=e768]
+      - list [ref=e769]:
+        - listitem [ref=e770]:
+          - strong [ref=e771]: "Scavi tour (St Peter's tomb under the basilica):"
+          - text: small groups, roughly €20 pp, requested on the
+          - link "official reservation page" [ref=e772] [cursor=pointer]:
+            - /url: https://visite.basilicasanpietro.va/en/booking/necropolivaticana
+          - text: . Confirmations take six weeks or more, so a request today is a long shot, but it costs nothing to ask.
+        - listitem [ref=e773]:
+          - strong [ref=e774]: "Sunday Mass times at St Peter's:"
+          - text: see the
+          - link "basilica hours page" [ref=e775] [cursor=pointer]:
+            - /url: https://www.basilicasanpietro.va/en/opening-hours
+          - text: .
+    - generic [ref=e776]:
+      - heading "First-timer tips" [level=2] [ref=e777]
+      - list [ref=e778]:
+        - listitem [ref=e779]:
+          - strong [ref=e780]: "Church dress code:"
+          - text: shoulders and knees covered for both of you, enforced at St Peter's and the Vatican Museums. A light scarf solves it.
+        - listitem [ref=e781]:
+          - strong [ref=e782]: "Mid-October weather:"
+          - text: highs 18–22°C, lows 10–13°C, mostly dry, sunset about 18:30. A light jacket for evenings and the catacombs.
+        - listitem [ref=e783]:
+          - strong [ref=e784]: "Water:"
+          - text: the little street fountains (nasoni) run free, cold drinking water. Carry a bottle.
+        - listitem [ref=e785]:
+          - strong [ref=e786]: "Pickpockets:"
+          - text: busy on bus 64, Metro A and at Termini. Bag in front, nothing in back pockets.
+        - listitem [ref=e787]:
+          - strong [ref=e788]: "Skip the Roma Pass:"
+          - text: at €38–63 it does not pay back against the official prices here.
+        - listitem [ref=e789]:
+          - strong [ref=e790]: Ignore the touts
+          - text: around the Colosseum and Vatican selling "skip the line"; you already have timed tickets.
+        - listitem [ref=e791]:
+          - strong [ref=e792]: "Eat where locals eat:"
+          - text: Trastevere and Monti in the evening, Testaccio for the real Roman kitchen. Cacio e pepe, carbonara, supplì, and the Jewish artichokes in the Ghetto.
+        - listitem [ref=e793]:
+          - strong [ref=e794]: "Coffee:"
+          - text: standing at the bar costs about €1.20; sitting down doubles it. Cappuccino is a morning drink.
+        - listitem [ref=e795]:
+          - strong [ref=e796]: "Sundays:"
+          - text: Vatican Museums closed; many churches limit sightseeing during Mass.
+        - listitem [ref=e797]:
+          - strong [ref=e798]: "Apps:"
+          - text: Google Maps handles ATAC buses well. Moovit shows live bus arrivals.
+    - generic [ref=e799]:
+      - heading "Sources checked on 8 October 2026" [level=2] [ref=e800]
+      - list [ref=e801]:
+        - listitem [ref=e802]:
+          - link "ATAC tickets and passes" [ref=e803] [cursor=pointer]:
+            - /url: https://www.atac.roma.it/en/tickets-and-passes
+        - listitem [ref=e804]:
+          - link "Parco archeologico del Colosseo, Colosseum/Forum/Palatine ticket" [ref=e805] [cursor=pointer]:
+            - /url: https://colosseo.it/en/tickets/colosseum-roman-forum-palatine/
+        - listitem [ref=e806]:
+          - link "Colosseum opening times and ticket types" [ref=e807] [cursor=pointer]:
+            - /url: https://colosseo.it/en/opening-times-and-tickets/
+        - listitem [ref=e808]:
+          - link "St Peter's Basilica dome booking (stairs)" [ref=e809] [cursor=pointer]:
+            - /url: https://booking.basilicasanpietro.va/en/idea/52251275/-dome-with-stairs-includes-basilica-
+        - listitem [ref=e810]:
+          - link "St Peter's Basilica opening hours" [ref=e811] [cursor=pointer]:
+            - /url: https://www.basilicasanpietro.va/en/opening-hours
+        - listitem [ref=e812]:
+          - link "Vatican Necropolis (Scavi) reservation" [ref=e813] [cursor=pointer]:
+            - /url: https://visite.basilicasanpietro.va/en/booking/necropolivaticana
+        - listitem [ref=e814]:
+          - link "Galleria Borghese ticket info" [ref=e815] [cursor=pointer]:
+            - /url: https://galleriaborghese.cultura.gov.it/en/visita/info-biglietti/
+        - listitem [ref=e816]:
+          - link "Prefecture of the Papal Household ticket portal" [ref=e817] [cursor=pointer]:
+            - /url: https://eventi.pontificalisdomus.va/?lang=en-us
+        - listitem [ref=e818]:
+          - link "Vatican General Audience 7 Oct 2026 (calendar)" [ref=e819] [cursor=pointer]:
+            - /url: https://www.vatican.va/content/leo-xiv/en/events/event.dir.html/content/vaticanevents/en/2026/10/7/udienza-generale.html
+        - listitem [ref=e820]:
+          - link "Pope Leo XIV travels 2026 (no October journey)" [ref=e821] [cursor=pointer]:
+            - /url: https://www.vatican.va/content/leo-xiv/en/travels/2026.html
+        - listitem [ref=e822]:
+          - link "Pantheon fee rise to €7 (Wanted in Rome)" [ref=e823] [cursor=pointer]:
+            - /url: https://www.wantedinrome.com/news/rome-raises-entry-fee-for-pantheon-from-5-to-7.html
+        - listitem [ref=e824]:
+          - link "Castel Sant'Angelo ticket (CoopCulture)" [ref=e825] [cursor=pointer]:
+            - /url: https://www.coopculture.it/en/products/castel-santangelo-ticket-individual-up-to-9-people-00001/
+        - listitem [ref=e826]:
+          - link "Vatican Museums prices 2026 (third-party; official site blocks robots)" [ref=e827] [cursor=pointer]:
+            - /url: https://www.artvisitguide.com/vatican-museums-tickets-guide/
+        - listitem [ref=e828]:
+          - link "Catacombs of San Callisto" [ref=e829] [cursor=pointer]:
+            - /url: https://www.catacombesancallisto.it/en/
+        - listitem [ref=e830]:
+          - 'link "Trainline: Livorno Centrale to Roma Termini" [ref=e831] [cursor=pointer]':
+            - /url: https://www.thetrainline.com/en-us/train-times/livorno-centrale-to-roma-termini
+  - contentinfo [ref=e832]:
+    - paragraph [ref=e833]: Prices change. Confirm on the official link before paying, and never buy from a reseller for more than the official price.

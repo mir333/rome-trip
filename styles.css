@@ -1,0 +1,112 @@
+:root {
+  --bg: #faf6ef;
+  --surface: #ffffff;
+  --ink: #1f1a16;
+  --muted: #6b625a;
+  --line: #e6ddd0;
+  --accent: #b8322e;
+  --accent-ink: #ffffff;
+  --link: #8f2b27;
+  --warn-bg: #fff4e0;
+  --warn-line: #e3b45f;
+  --radius: 14px;
+  --shadow: 0 1px 2px rgba(0,0,0,.05), 0 8px 24px rgba(60,40,20,.06);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #15120f; --surface: #1f1b17; --ink: #efe8df; --muted: #a79d92;
+    --line: #342d27; --accent: #d9534f; --link: #f0a09c;
+    --warn-bg: #3a2c12; --warn-line: #a9823a;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #15120f; --surface: #1f1b17; --ink: #efe8df; --muted: #a79d92;
+  --line: #342d27; --accent: #d9534f; --link: #f0a09c;
+  --warn-bg: #3a2c12; --warn-line: #a9823a;
+  --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 16px; line-height: 1.55;
+}
+h1, h2, h3 { font-family: Fraunces, Georgia, serif; font-weight: 700; line-height: 1.15; margin: 0 0 .5rem; }
+h1 { font-size: clamp(2rem, 5vw, 3.2rem); }
+h2 { font-size: clamp(1.5rem, 3vw, 2rem); margin-top: 0; }
+h3 { font-size: 1.15rem; margin-top: 1.4rem; }
+p { margin: 0 0 1rem; }
+a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+ul, ol { padding-left: 1.3rem; }
+li { margin: .35rem 0; }
+.muted { color: var(--muted); }
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+
+.hero { background: linear-gradient(160deg, #7a1e1b, #b8322e 55%, #d08a1b); color: #fff; padding: 56px 0 40px; }
+.hero h1 { color: #fff; }
+.hero a { color: #fff; }
+.eyebrow { text-transform: uppercase; letter-spacing: .08em; font-size: .78rem; opacity: .85; margin-bottom: .6rem; }
+.lede { font-size: 1.1rem; max-width: 60ch; opacity: .95; }
+.toc { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.2rem; }
+.toc a { text-decoration: none; background: rgba(255,255,255,.16); padding: .4rem .8rem; border-radius: 999px; font-size: .9rem; font-weight: 500; }
+.toc a:hover { background: rgba(255,255,255,.28); }
+
+main > section { margin: 40px 0; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; box-shadow: var(--shadow); }
+.callout { border-left: 6px solid var(--accent); }
+.booklist li { margin: .5rem 0; }
+
+.day { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); margin: 18px 0; overflow: hidden; }
+.day-head { padding: 18px 24px; border-left: 8px solid var(--day); }
+.day-head .date { font-size: .85rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 600; }
+.day-head h3 { margin: .15rem 0 .4rem; font-size: 1.45rem; }
+.day-head .transport { font-size: .92rem; color: var(--muted); margin: 0; }
+.stops { list-style: none; margin: 0; padding: 0 24px 18px; }
+.stop { display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 12px 0; border-top: 1px dashed var(--line); }
+.stop .time { font-variant-numeric: tabular-nums; font-weight: 600; color: var(--day); }
+.stop .what { font-weight: 600; }
+.stop .note { color: var(--muted); font-size: .95rem; }
+.stop .meta { font-size: .88rem; margin-top: .25rem; }
+.pill { display: inline-block; font-size: .78rem; font-weight: 600; padding: .1rem .55rem; border-radius: 999px; background: var(--bg); border: 1px solid var(--line); margin-right: .4rem; }
+.pill.free { color: #2f7a3d; }
+
+#leaflet-map { height: 520px; border-radius: var(--radius); border: 1px solid var(--line); box-shadow: var(--shadow); z-index: 0; }
+.legend { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; margin-top: .8rem; font-size: .9rem; }
+.legend span::before { content: ""; display: inline-block; width: 12px; height: 12px; border-radius: 50%; background: var(--day); margin-right: .4rem; vertical-align: -1px; }
+.leaflet-popup-content { font-family: Inter, system-ui, sans-serif; font-size: .9rem; line-height: 1.4; }
+.leaflet-popup-content a { color: #8f2b27; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+.place { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px; display: flex; flex-direction: column; border-top: 5px solid var(--day); }
+.place h3 { margin: 0 0 .2rem; font-size: 1.15rem; }
+.place .area { font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-bottom: .6rem; }
+.place .desc { font-size: .95rem; }
+.place dl { margin: .4rem 0 .8rem; font-size: .9rem; display: grid; grid-template-columns: 70px 1fr; gap: .2rem .6rem; }
+.place dt { color: var(--muted); font-weight: 500; }
+.place dd { margin: 0; }
+.place .tips { font-size: .88rem; color: var(--muted); padding-left: 1.1rem; margin: 0 0 .8rem; }
+.place .actions { margin-top: auto; display: flex; flex-wrap: wrap; gap: .5rem; }
+.btn { display: inline-block; text-decoration: none; font-weight: 600; font-size: .88rem; padding: .5rem .85rem; border-radius: 10px; background: var(--accent); color: var(--accent-ink); }
+.btn.secondary { background: transparent; color: var(--link); border: 1px solid var(--line); }
+
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+th, td { text-align: left; padding: .55rem .6rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr.optional td { color: var(--muted); }
+tr.total td { font-weight: 700; border-top: 2px solid var(--ink); }
+.warn { background: var(--warn-bg); border: 1px solid var(--warn-line); border-radius: 10px; padding: 14px 16px; margin-bottom: 1rem; }
+.tips li { margin: .5rem 0; }
+footer { padding: 24px 16px 48px; font-size: .9rem; }
+
+@media (max-width: 600px) {
+  .hero { padding: 40px 0 28px; }
+  .card, .day-head { padding: 18px; }
+  .stops { padding: 0 18px 14px; }
+  .stop { grid-template-columns: 52px 1fr; }
+  #leaflet-map { height: 400px; }
+}
